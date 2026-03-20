@@ -1,0 +1,26 @@
+{
+  "id": "tt-top-10-the-gioi",
+  "slug": "top-10-tin-tuc-the-gioi-hom-qua",
+  "name": "Top 10 tin tức thế giới hôm qua",
+  "shortDescription": "Tóm tắt nhanh 10 diễn biến nổi bật của thế giới trong ngày hôm qua để bạn nắm bức tranh chung chỉ trong vài phút đọc.",
+  "themeImage": "/images/top-10-tin-tuc-the-gioi-hom-qua.svg",
+  "redirectUrl": "/tin-tuc/the-gioi-hom-qua",
+  "tags": ["Thế giới", "Tóm tắt nhanh", "Tin nóng"],
+  "featured": false,
+  "order": 1,
+  "status": "published",
+  "seo": {
+    "title": "Top 10 tin tức thế giới hôm qua: Tóm tắt nhanh dễ hiểu",
+    "description": "Đọc nhanh top 10 tin tức thế giới hôm qua với các điểm chính ngắn gọn, giúp bạn cập nhật tình hình quốc tế hiệu quả.",
+    "keywords": [
+      "top 10 tin tức thế giới hôm qua",
+      "tóm tắt tin thế giới",
+      "tin quốc tế nổi bật",
+      "bản tin thế giới",
+      "tin tức nhanh"
+    ],
+    "ogImage": "/og/item-top-10-tin-tuc-the-gioi-hom-qua.svg",
+    "canonicalUrl": "/tin-tuc/the-gioi-hom-qua",
+    "noindex": false
+  }
+}

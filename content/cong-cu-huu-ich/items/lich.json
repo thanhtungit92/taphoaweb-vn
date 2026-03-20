@@ -1,0 +1,26 @@
+{
+  "id": "cc-lich",
+  "slug": "lich",
+  "name": "Lịch",
+  "shortDescription": "Tra cứu lịch dương, lịch âm và các mốc ngày quan trọng trong tháng bằng giao diện trực quan, dễ theo dõi trên cả điện thoại và máy tính.",
+  "themeImage": "/images/lich.svg",
+  "redirectUrl": "/lich",
+  "tags": ["Lịch online", "Lịch âm dương", "Tiện ích"],
+  "featured": true,
+  "order": 1,
+  "status": "published",
+  "seo": {
+    "title": "Lịch online tiện lợi: Xem lịch dương và lịch âm nhanh",
+    "description": "Công cụ lịch online giúp bạn xem lịch dương, lịch âm, ghi nhớ ngày quan trọng và lên kế hoạch dễ dàng mỗi ngày.",
+    "keywords": [
+      "lịch online",
+      "xem lịch âm",
+      "xem lịch dương",
+      "lịch tiện lợi",
+      "công cụ lịch"
+    ],
+    "ogImage": "/og/item-lich.svg",
+    "canonicalUrl": "/lich",
+    "noindex": false
+  }
+}

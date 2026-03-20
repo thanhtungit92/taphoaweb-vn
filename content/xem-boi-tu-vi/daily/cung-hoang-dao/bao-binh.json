@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-bao-binh",
+  "slug": "bao-binh",
+  "name": "Bảo Bình",
+  "publishDate": "2026-03-20",
+  "summary": "Bảo Bình hôm nay hợp với những ý tưởng mới, nhưng cần một khung triển khai rõ để ý tưởng không dừng ở mức cảm hứng.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Bảo Bình. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc có lợi khi bạn thử cách tiếp cận mới nhưng vẫn bám kết quả cụ thể và thời hạn rõ ràng.",
+    "taiLoc": "Tài lộc ở mức ổn, phù hợp với các quyết định có tính toán. Nên tránh các lựa chọn chỉ dựa trên cảm giác mới mẻ.",
+    "tinhCam": "Tình cảm thuận hơn khi bạn vừa giữ cá tính riêng vừa thể hiện sự quan tâm đủ rõ với người đối diện.",
+    "sucKhoe": "Nên chú ý nghỉ mắt, giãn cơ và không để lịch sinh hoạt bị lệch quá nhiều trong ngày."
+  },
+  "lucky": {
+    "mauSac": "Xanh điện",
+    "conSo": "12",
+    "gioTot": "15:00 - 17:00",
+    "quyNhan": "Song Tử"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Bảo Bình: Xem nhanh vận trình hôm nay",
+    "description": "Tử vi hôm nay của cung Bảo Bình với phần nội dung ngắn gọn về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Bảo Bình",
+      "cung Bảo Bình hôm nay",
+      "xem tử vi Bảo Bình"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/bao-binh",
+    "noindex": false
+  }
+}

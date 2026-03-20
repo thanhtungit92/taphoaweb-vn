@@ -1,0 +1,26 @@
+{
+  "id": "tv-12-con-giap",
+  "slug": "tu-vi-12-con-giap",
+  "name": "Tử vi 12 con giáp",
+  "shortDescription": "Xem nhanh đặc trưng, tính cách và định hướng tổng quát của 12 con giáp theo cách ngắn gọn, dễ tra cứu.",
+  "themeImage": "/images/tu-vi-12-con-giap.svg",
+  "redirectUrl": "/tu-vi-12-con-giap",
+  "tags": ["12 con giáp", "Tử vi", "Xem nhanh"],
+  "featured": true,
+  "order": 1,
+  "status": "published",
+  "seo": {
+    "title": "Tử vi 12 con giáp: Tra cứu nhanh theo tuổi",
+    "description": "Trang tử vi 12 con giáp giúp bạn xem nhanh đặc trưng từng tuổi, định hướng tổng quát và các điểm nổi bật theo từng con giáp.",
+    "keywords": [
+      "tử vi 12 con giáp",
+      "xem tử vi theo tuổi",
+      "12 con giáp",
+      "tử vi tuổi",
+      "xem bói con giáp"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap",
+    "noindex": false
+  }
+}

@@ -1,0 +1,41 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#FFF7ED"/>
+  <circle cx="1280" cy="180" r="180" fill="#FCD34D" fill-opacity="0.28"/>
+  <circle cx="210" cy="760" r="220" fill="#F59E0B" fill-opacity="0.12"/>
+  <rect x="118" y="110" width="1364" height="680" rx="42" fill="white"/>
+  <rect x="118" y="110" width="1364" height="680" rx="42" stroke="#FED7AA" stroke-width="2"/>
+  <text x="180" y="230" fill="#9A3412" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700">
+    Xem bói hắt hơi theo giờ
+  </text>
+  <text x="180" y="288" fill="#7C2D12" font-family="Verdana, sans-serif" font-size="24">
+    Tra cứu nhanh 24 mốc giờ trong ngày
+  </text>
+  <circle cx="1250" cy="450" r="138" fill="#FFFBEB" stroke="#F59E0B" stroke-width="14"/>
+  <circle cx="1250" cy="450" r="10" fill="#B45309"/>
+  <path d="M1250 450L1250 364" stroke="#B45309" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1250 450L1318 482" stroke="#B45309" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1250 294V322" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1250 578V606" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1094 450H1122" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1378 450H1406" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <g>
+    <circle cx="360" cy="490" r="118" fill="#FFEDD5"/>
+    <path d="M312 452C327 415 362 392 401 392C449 392 488 431 488 479C488 533 446 569 393 569H322" stroke="#9A3412" stroke-width="20" stroke-linecap="round"/>
+    <path d="M334 455C346 433 366 420 391 420" stroke="#9A3412" stroke-width="16" stroke-linecap="round"/>
+    <path d="M478 432L540 420" stroke="#FDBA74" stroke-width="18" stroke-linecap="round"/>
+    <path d="M496 470L566 470" stroke="#FDBA74" stroke-width="18" stroke-linecap="round"/>
+    <path d="M480 508L544 522" stroke="#FDBA74" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g fill="#B45309" font-family="Verdana, sans-serif" font-size="28" font-weight="700">
+    <text x="180" y="410">00h</text>
+    <text x="180" y="470">06h</text>
+    <text x="180" y="530">12h</text>
+    <text x="180" y="590">18h</text>
+  </g>
+  <g fill="#7C2D12" font-family="Verdana, sans-serif" font-size="22">
+    <text x="300" y="410">Có người đang nhớ tới bạn</text>
+    <text x="300" y="470">Dễ có lời nhắn hoặc cuộc hẹn</text>
+    <text x="300" y="530">Nên chậm lại trước một quyết định</text>
+    <text x="300" y="590">Có tin vui hoặc kết nối mới</text>
+  </g>
+</svg>

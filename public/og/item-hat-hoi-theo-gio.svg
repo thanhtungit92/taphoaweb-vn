@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFF7ED"/>
+  <circle cx="920" cy="130" r="120" fill="#FCD34D" fill-opacity="0.28"/>
+  <rect x="54" y="52" width="1092" height="526" rx="34" fill="white"/>
+  <rect x="54" y="52" width="1092" height="526" rx="34" stroke="#FED7AA" stroke-width="2"/>
+  <text x="110" y="172" fill="#9A3412" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">
+    Xem bói hắt hơi theo giờ
+  </text>
+  <text x="110" y="230" fill="#7C2D12" font-family="Verdana, sans-serif" font-size="24">
+    24 mốc giờ trong ngày
+  </text>
+  <text x="110" y="270" fill="#7C2D12" font-family="Verdana, sans-serif" font-size="24">
+    Nội dung ngắn gọn, dễ tra cứu
+  </text>
+  <circle cx="922" cy="340" r="108" fill="#FFFBEB" stroke="#F59E0B" stroke-width="12"/>
+  <circle cx="922" cy="340" r="9" fill="#B45309"/>
+  <path d="M922 340L922 274" stroke="#B45309" stroke-width="12" stroke-linecap="round"/>
+  <path d="M922 340L978 366" stroke="#B45309" stroke-width="12" stroke-linecap="round"/>
+  <g>
+    <circle cx="300" cy="365" r="90" fill="#FFEDD5"/>
+    <path d="M264 336C276 308 304 290 336 290C373 290 405 321 405 358C405 400 372 431 330 431H272" stroke="#9A3412" stroke-width="16" stroke-linecap="round"/>
+    <path d="M278 338C289 321 304 312 324 312" stroke="#9A3412" stroke-width="13" stroke-linecap="round"/>
+    <path d="M398 326L448 316" stroke="#FDBA74" stroke-width="14" stroke-linecap="round"/>
+    <path d="M412 356L468 356" stroke="#FDBA74" stroke-width="14" stroke-linecap="round"/>
+    <path d="M400 388L452 400" stroke="#FDBA74" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>

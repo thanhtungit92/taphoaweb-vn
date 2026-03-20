@@ -1,0 +1,26 @@
+{
+  "id": "tv-hat-hoi-theo-gio",
+  "slug": "hat-hoi-theo-gio",
+  "name": "Xem bói hắt hơi theo ngày và giờ",
+  "shortDescription": "Tra cứu nhanh ý nghĩa hắt hơi theo từng ngày trong tuần và 24 khung giờ trong ngày với nội dung cố định, dễ xem.",
+  "themeImage": "/images/hat-hoi-theo-gio.svg",
+  "redirectUrl": "/hat-hoi-theo-gio",
+  "tags": ["Hắt hơi", "Theo ngày", "Theo giờ"],
+  "featured": true,
+  "order": 3,
+  "status": "published",
+  "seo": {
+    "title": "Xem bói hắt hơi theo ngày và giờ: Tra cứu từ Thứ 2 đến Chủ nhật",
+    "description": "Tra cứu nội dung xem bói hắt hơi theo từng ngày trong tuần và 24 khung giờ trong ngày, trình bày rõ ràng và dễ đọc.",
+    "keywords": [
+      "hắt hơi theo giờ",
+      "xem bói hắt hơi theo giờ",
+      "điềm báo hắt hơi",
+      "hắt xì hơi theo giờ",
+      "giải nghĩa hắt hơi"
+    ],
+    "ogImage": "/og/item-hat-hoi-theo-gio.svg",
+    "canonicalUrl": "/hat-hoi-theo-gio",
+    "noindex": false
+  }
+}

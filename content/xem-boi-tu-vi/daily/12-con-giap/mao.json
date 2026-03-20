@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-mao",
+  "slug": "mao",
+  "name": "Tuổi Mão",
+  "publishDate": "2026-03-20",
+  "summary": "Tuổi Mão hôm nay hợp với nhịp làm việc mềm mại, linh hoạt và ưu tiên xử lý những việc cần sự tinh tế trong giao tiếp.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Mão. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc có lợi khi bạn phối hợp khéo léo với người khác và tránh đẩy mọi thứ vào trạng thái quá căng.",
+    "taiLoc": "Tài lộc ở mức vừa phải. Nên ưu tiên những quyết định chắc chắn, tránh tâm lý nóng vội hoặc mua sắm theo hứng.",
+    "tinhCam": "Tình cảm thuận hơn khi bạn thể hiện sự quan tâm bằng hành động nhỏ, đều đặn và đúng lúc.",
+    "sucKhoe": "Nên chú ý giấc ngủ và hạn chế làm việc kéo dài liên tục trong một khoảng thời gian quá lâu."
+  },
+  "lucky": {
+    "mauSac": "Hồng nhạt",
+    "conSo": "22",
+    "gioTot": "15:00 - 17:00",
+    "quyNhan": "Tuổi Hợi"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Mão: Gợi ý vận trình và điểm cần lưu ý",
+    "description": "Xem tử vi hôm nay của tuổi Mão với phần đọc nhanh về công việc, tiền bạc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Mão",
+      "tuổi Mão hôm nay",
+      "xem tử vi tuổi Mão"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/mao",
+    "noindex": false
+  }
+}

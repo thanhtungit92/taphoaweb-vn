@@ -1,0 +1,26 @@
+{
+  "id": "tv-cung-hoang-dao",
+  "slug": "tu-vi-cung-hoang-dao",
+  "name": "Tử vi cung hoàng đạo",
+  "shortDescription": "Tổng hợp 12 cung hoàng đạo với phần mô tả cô đọng về tính cách, điểm mạnh và xu hướng thường gặp.",
+  "themeImage": "/images/tu-vi-cung-hoang-dao.svg",
+  "redirectUrl": "/tu-vi-cung-hoang-dao",
+  "tags": ["Cung hoàng đạo", "Tử vi", "Tra cứu nhanh"],
+  "featured": true,
+  "order": 2,
+  "status": "published",
+  "seo": {
+    "title": "Tử vi cung hoàng đạo: Xem nhanh 12 chòm sao",
+    "description": "Khám phá tử vi cung hoàng đạo với thông tin cô đọng về 12 chòm sao, dễ đọc và phù hợp cho nhu cầu tra cứu nhanh.",
+    "keywords": [
+      "tử vi cung hoàng đạo",
+      "12 cung hoàng đạo",
+      "xem tử vi chòm sao",
+      "cung hoàng đạo hôm nay",
+      "xem bói cung hoàng đạo"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao",
+    "noindex": false
+  }
+}

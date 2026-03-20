@@ -1,0 +1,923 @@
+{
+  "title": "Xem bói hắt hơi theo ngày và giờ trong tuần",
+  "description": "Tra cứu ý nghĩa hắt hơi theo từng ngày trong tuần từ Thứ 2 đến Chủ nhật, mỗi ngày có đủ 24 khung giờ để xem nhanh.",
+  "intro": "Trang này tổng hợp nội dung xem bói hắt hơi theo từng ngày trong tuần, từ Thứ 2 đến Chủ nhật. Mỗi ngày được chia thành 24 khung giờ từ 00:00 đến 23:59 để bạn tra cứu nhanh theo đúng thời điểm mình hắt hơi, đồng thời có phần giải thích ngắn để việc xem dễ hiểu hơn.",
+  "note": "Nội dung dưới đây là bản tra cứu tĩnh theo ngày trong tuần và theo giờ, dùng cho mục đích tham khảo và giải trí. Nếu bạn hắt hơi liên tục, kéo dài hoặc kèm biểu hiện khó chịu, nên ưu tiên theo dõi sức khỏe thay vì diễn giải theo điềm báo.",
+  "howToUse": [
+    "Xác định đúng ngày trong tuần tại thời điểm bạn hắt hơi, rồi chọn khung giờ gần nhất để tra cứu.",
+    "Mỗi ô nội dung nên được đọc như một gợi ý tham khảo dân gian, không phải kết luận chắc chắn cho điều sắp xảy ra.",
+    "Nếu trong cùng một ngày bạn hắt hơi nhiều lần ở các giờ khác nhau, nên ưu tiên khung giờ khiến bạn chú ý rõ nhất."
+  ],
+  "days": [
+    {
+      "slug": "thu-2",
+      "title": "Thứ 2",
+      "shortLabel": "T2",
+      "overview": "Thứ 2 thường gắn với nhịp khởi động lại công việc, sắp xếp kế hoạch và chỉnh tinh thần cho cả tuần. Khi tra cứu hắt hơi vào ngày này, nên ưu tiên đọc theo hướng nhắc nhở về nhịp sống, cách bắt đầu và các mối liên hệ công việc.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Thứ 2 là ngày thiên về công việc, kế hoạch, nhịp đầu tuần. Khi hắt hơi vào đêm muộn, người ta thường luận rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với thứ 2, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Bạn nên giữ nhịp chủ động nhưng không nên hấp tấp. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của thứ 2, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của thứ 2 vốn hợp với công việc, nên không nên kéo cảm xúc đi quá xa. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào thứ 2 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì giữ nhịp chủ động nhưng không nên hấp tấp, bạn nên đọc tín hiệu này theo hướng kế hoạch. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở thứ 2, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Thứ 2 mang nhịp công việc, kế hoạch, nhịp đầu tuần nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Thứ 2 là ngày thiên về công việc, kế hoạch, nhịp đầu tuần. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với thứ 2, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Bạn nên giữ nhịp chủ động nhưng không nên hấp tấp. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của thứ 2, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của thứ 2 vốn hợp với công việc, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào thứ 2 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì giữ nhịp chủ động nhưng không nên hấp tấp, bạn nên đọc tín hiệu này theo hướng kế hoạch. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở thứ 2, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Thứ 2 mang nhịp công việc, kế hoạch, nhịp đầu tuần nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Thứ 2 là ngày thiên về công việc, kế hoạch, nhịp đầu tuần. Khi hắt hơi vào giữa trưa, người ta thường luận rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với thứ 2, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Bạn nên giữ nhịp chủ động nhưng không nên hấp tấp. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của thứ 2, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của thứ 2 vốn hợp với công việc, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào thứ 2 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì giữ nhịp chủ động nhưng không nên hấp tấp, bạn nên đọc tín hiệu này theo hướng kế hoạch. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở thứ 2, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Thứ 2 mang nhịp công việc, kế hoạch, nhịp đầu tuần nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Thứ 2 là ngày thiên về công việc, kế hoạch, nhịp đầu tuần. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với thứ 2, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Bạn nên giữ nhịp chủ động nhưng không nên hấp tấp. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của thứ 2, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của thứ 2 vốn hợp với công việc, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào thứ 2 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì giữ nhịp chủ động nhưng không nên hấp tấp, bạn nên đọc tín hiệu này theo hướng kế hoạch. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở thứ 2, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc một người đang nhắc đến bạn trong câu chuyện liên quan đến việc chung hoặc dự định mới. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Thứ 2 mang nhịp công việc, kế hoạch, nhịp đầu tuần nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        }
+      ]
+    },
+    {
+      "slug": "thu-3",
+      "title": "Thứ 3",
+      "shortLabel": "T3",
+      "overview": "Thứ 3 là ngày mọi thứ bắt đầu đi vào guồng rõ hơn. Nội dung trong ngày này thiên về trao đổi, xử lý việc còn dang dở và những liên hệ nhỏ nhưng có ích xuất hiện giữa tuần.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Thứ 3 là ngày thiên về trao đổi, xử lý việc tồn, ổn định nhịp. Khi hắt hơi vào đêm muộn, người ta thường luận rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với thứ 3, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Bạn nên ưu tiên sự rõ ràng, đều tay và tránh nóng vội. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của thứ 3, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của thứ 3 vốn hợp với trao đổi, nên không nên kéo cảm xúc đi quá xa. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào thứ 3 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì ưu tiên sự rõ ràng, đều tay và tránh nóng vội, bạn nên đọc tín hiệu này theo hướng xử lý việc tồn. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở thứ 3, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Thứ 3 mang nhịp trao đổi, xử lý việc tồn, ổn định nhịp nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Thứ 3 là ngày thiên về trao đổi, xử lý việc tồn, ổn định nhịp. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với thứ 3, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Bạn nên ưu tiên sự rõ ràng, đều tay và tránh nóng vội. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của thứ 3, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của thứ 3 vốn hợp với trao đổi, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào thứ 3 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì ưu tiên sự rõ ràng, đều tay và tránh nóng vội, bạn nên đọc tín hiệu này theo hướng xử lý việc tồn. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở thứ 3, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Thứ 3 mang nhịp trao đổi, xử lý việc tồn, ổn định nhịp nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Thứ 3 là ngày thiên về trao đổi, xử lý việc tồn, ổn định nhịp. Khi hắt hơi vào giữa trưa, người ta thường luận rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với thứ 3, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Bạn nên ưu tiên sự rõ ràng, đều tay và tránh nóng vội. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của thứ 3, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của thứ 3 vốn hợp với trao đổi, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào thứ 3 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì ưu tiên sự rõ ràng, đều tay và tránh nóng vội, bạn nên đọc tín hiệu này theo hướng xử lý việc tồn. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở thứ 3, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Thứ 3 mang nhịp trao đổi, xử lý việc tồn, ổn định nhịp nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Thứ 3 là ngày thiên về trao đổi, xử lý việc tồn, ổn định nhịp. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với thứ 3, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Bạn nên ưu tiên sự rõ ràng, đều tay và tránh nóng vội. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của thứ 3, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của thứ 3 vốn hợp với trao đổi, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào thứ 3 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì ưu tiên sự rõ ràng, đều tay và tránh nóng vội, bạn nên đọc tín hiệu này theo hướng xử lý việc tồn. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở thứ 3, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc có người sắp nhắn cho bạn hoặc muốn nối lại một cuộc trao đổi còn bỏ dở. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Thứ 3 mang nhịp trao đổi, xử lý việc tồn, ổn định nhịp nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        }
+      ]
+    },
+    {
+      "slug": "thu-4",
+      "title": "Thứ 4",
+      "shortLabel": "T4",
+      "overview": "Thứ 4 nằm giữa tuần nên dễ mang cả áp lực lẫn cơ hội điều chỉnh. Bảng tra cứu của ngày này phù hợp để đọc như một tín hiệu cân bằng: bớt căng, bớt gồng và để ý hơn tới người đang hỗ trợ mình.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Thứ 4 là ngày thiên về cân bằng, áp lực giữa tuần, hỗ trợ. Khi hắt hơi vào đêm muộn, người ta thường luận rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với thứ 4, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Bạn nên giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của thứ 4, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của thứ 4 vốn hợp với cân bằng, nên không nên kéo cảm xúc đi quá xa. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào thứ 4 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định, bạn nên đọc tín hiệu này theo hướng áp lực giữa tuần. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở thứ 4, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Thứ 4 mang nhịp cân bằng, áp lực giữa tuần, hỗ trợ nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Thứ 4 là ngày thiên về cân bằng, áp lực giữa tuần, hỗ trợ. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với thứ 4, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Bạn nên giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của thứ 4, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của thứ 4 vốn hợp với cân bằng, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào thứ 4 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định, bạn nên đọc tín hiệu này theo hướng áp lực giữa tuần. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở thứ 4, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Thứ 4 mang nhịp cân bằng, áp lực giữa tuần, hỗ trợ nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Thứ 4 là ngày thiên về cân bằng, áp lực giữa tuần, hỗ trợ. Khi hắt hơi vào giữa trưa, người ta thường luận rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với thứ 4, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Bạn nên giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của thứ 4, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của thứ 4 vốn hợp với cân bằng, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào thứ 4 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định, bạn nên đọc tín hiệu này theo hướng áp lực giữa tuần. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở thứ 4, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Thứ 4 mang nhịp cân bằng, áp lực giữa tuần, hỗ trợ nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Thứ 4 là ngày thiên về cân bằng, áp lực giữa tuần, hỗ trợ. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với thứ 4, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Bạn nên giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của thứ 4, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của thứ 4 vốn hợp với cân bằng, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào thứ 4 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì giữ đầu óc sáng và đừng để cảm xúc lấn quá sâu vào quyết định, bạn nên đọc tín hiệu này theo hướng áp lực giữa tuần. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở thứ 4, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc ai đó đang để tâm đến bạn với thiện ý hoặc muốn giúp bạn gỡ một việc nhỏ. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Thứ 4 mang nhịp cân bằng, áp lực giữa tuần, hỗ trợ nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        }
+      ]
+    },
+    {
+      "slug": "thu-5",
+      "title": "Thứ 5",
+      "shortLabel": "T5",
+      "overview": "Thứ 5 thường là thời điểm người ta bắt đầu nghĩ đến việc chốt việc, gặp gỡ hoặc quyết một chuyện còn lưng chừng. Hắt hơi trong ngày này thường được diễn giải theo hướng có lời mời, cuộc hẹn hoặc trao đổi cần phản hồi rõ ràng.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Thứ 5 là ngày thiên về chốt việc, cuộc hẹn, phản hồi. Khi hắt hơi vào đêm muộn, người ta thường luận rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với thứ 5, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Bạn nên nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của thứ 5, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của thứ 5 vốn hợp với chốt việc, nên không nên kéo cảm xúc đi quá xa. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào thứ 5 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết, bạn nên đọc tín hiệu này theo hướng cuộc hẹn. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở thứ 5, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Thứ 5 mang nhịp chốt việc, cuộc hẹn, phản hồi nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Thứ 5 là ngày thiên về chốt việc, cuộc hẹn, phản hồi. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với thứ 5, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Bạn nên nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của thứ 5, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của thứ 5 vốn hợp với chốt việc, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào thứ 5 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết, bạn nên đọc tín hiệu này theo hướng cuộc hẹn. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở thứ 5, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Thứ 5 mang nhịp chốt việc, cuộc hẹn, phản hồi nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Thứ 5 là ngày thiên về chốt việc, cuộc hẹn, phản hồi. Khi hắt hơi vào giữa trưa, người ta thường luận rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với thứ 5, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Bạn nên nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của thứ 5, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của thứ 5 vốn hợp với chốt việc, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào thứ 5 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết, bạn nên đọc tín hiệu này theo hướng cuộc hẹn. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở thứ 5, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Thứ 5 mang nhịp chốt việc, cuộc hẹn, phản hồi nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Thứ 5 là ngày thiên về chốt việc, cuộc hẹn, phản hồi. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với thứ 5, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Bạn nên nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của thứ 5, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của thứ 5 vốn hợp với chốt việc, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào thứ 5 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì nói ngắn, rõ và tránh để mọi việc kéo dài không cần thiết, bạn nên đọc tín hiệu này theo hướng cuộc hẹn. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở thứ 5, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc rất có thể bạn sắp nhận được lời mời, lời hỏi ý hoặc sự chủ động từ người khác. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Thứ 5 mang nhịp chốt việc, cuộc hẹn, phản hồi nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        }
+      ]
+    },
+    {
+      "slug": "thu-6",
+      "title": "Thứ 6",
+      "shortLabel": "T6",
+      "overview": "Thứ 6 mang màu sắc cởi mở hơn, vừa có dư âm công việc vừa có không khí cuối tuần. Nội dung ngày này thiên về chuyển động mới, tin vui nhỏ, lời hẹn và những thay đổi nhẹ về cảm xúc.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Thứ 6 là ngày thiên về tin vui, chuyển động mới, kết nối xã hội. Khi hắt hơi vào đêm muộn, người ta thường luận rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với thứ 6, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Bạn nên giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của thứ 6, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của thứ 6 vốn hợp với tin vui, nên không nên kéo cảm xúc đi quá xa. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào thứ 6 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm, bạn nên đọc tín hiệu này theo hướng chuyển động mới. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở thứ 6, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Thứ 6 mang nhịp tin vui, chuyển động mới, kết nối xã hội nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Thứ 6 là ngày thiên về tin vui, chuyển động mới, kết nối xã hội. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với thứ 6, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Bạn nên giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của thứ 6, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của thứ 6 vốn hợp với tin vui, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào thứ 6 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm, bạn nên đọc tín hiệu này theo hướng chuyển động mới. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở thứ 6, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Thứ 6 mang nhịp tin vui, chuyển động mới, kết nối xã hội nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Thứ 6 là ngày thiên về tin vui, chuyển động mới, kết nối xã hội. Khi hắt hơi vào giữa trưa, người ta thường luận rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với thứ 6, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Bạn nên giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của thứ 6, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của thứ 6 vốn hợp với tin vui, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào thứ 6 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm, bạn nên đọc tín hiệu này theo hướng chuyển động mới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở thứ 6, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Thứ 6 mang nhịp tin vui, chuyển động mới, kết nối xã hội nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Thứ 6 là ngày thiên về tin vui, chuyển động mới, kết nối xã hội. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với thứ 6, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Bạn nên giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của thứ 6, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của thứ 6 vốn hợp với tin vui, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào thứ 6 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì giữ tâm thế mở, linh hoạt và đừng khép mình quá sớm, bạn nên đọc tín hiệu này theo hướng chuyển động mới. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở thứ 6, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc có người đang muốn gặp bạn, nhắc đến bạn hoặc mong chờ một phản hồi tích cực. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Thứ 6 mang nhịp tin vui, chuyển động mới, kết nối xã hội nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        }
+      ]
+    },
+    {
+      "slug": "thu-7",
+      "title": "Thứ 7",
+      "shortLabel": "T7",
+      "overview": "Thứ 7 phù hợp với các nội dung mang tính cảm xúc, gặp gỡ, nghỉ ngơi và đời sống riêng. Khi đọc hắt hơi vào ngày này, nên xem như một chỉ dấu nhẹ về chuyện hẹn hò, bạn bè, gia đình hoặc những cuộc trò chuyện cá nhân.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Thứ 7 là ngày thiên về gặp gỡ, cảm xúc, đời sống riêng. Khi hắt hơi vào đêm muộn, người ta thường luận rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với thứ 7, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Bạn nên thả lỏng, lắng nghe và để mình dễ chịu hơn. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của thứ 7, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của thứ 7 vốn hợp với gặp gỡ, nên không nên kéo cảm xúc đi quá xa. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào thứ 7 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì thả lỏng, lắng nghe và để mình dễ chịu hơn, bạn nên đọc tín hiệu này theo hướng cảm xúc. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở thứ 7, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Thứ 7 mang nhịp gặp gỡ, cảm xúc, đời sống riêng nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Thứ 7 là ngày thiên về gặp gỡ, cảm xúc, đời sống riêng. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với thứ 7, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Bạn nên thả lỏng, lắng nghe và để mình dễ chịu hơn. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của thứ 7, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của thứ 7 vốn hợp với gặp gỡ, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào thứ 7 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì thả lỏng, lắng nghe và để mình dễ chịu hơn, bạn nên đọc tín hiệu này theo hướng cảm xúc. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở thứ 7, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Thứ 7 mang nhịp gặp gỡ, cảm xúc, đời sống riêng nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Thứ 7 là ngày thiên về gặp gỡ, cảm xúc, đời sống riêng. Khi hắt hơi vào giữa trưa, người ta thường luận rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với thứ 7, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Bạn nên thả lỏng, lắng nghe và để mình dễ chịu hơn. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của thứ 7, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của thứ 7 vốn hợp với gặp gỡ, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào thứ 7 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì thả lỏng, lắng nghe và để mình dễ chịu hơn, bạn nên đọc tín hiệu này theo hướng cảm xúc. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở thứ 7, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Thứ 7 mang nhịp gặp gỡ, cảm xúc, đời sống riêng nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Thứ 7 là ngày thiên về gặp gỡ, cảm xúc, đời sống riêng. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với thứ 7, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Bạn nên thả lỏng, lắng nghe và để mình dễ chịu hơn. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của thứ 7, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của thứ 7 vốn hợp với gặp gỡ, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào thứ 7 thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì thả lỏng, lắng nghe và để mình dễ chịu hơn, bạn nên đọc tín hiệu này theo hướng cảm xúc. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở thứ 7, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc nhiều khả năng có người nhớ đến bạn theo cách riêng tư hơn thường ngày. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Thứ 7 mang nhịp gặp gỡ, cảm xúc, đời sống riêng nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        }
+      ]
+    },
+    {
+      "slug": "chu-nhat",
+      "title": "Chủ nhật",
+      "shortLabel": "CN",
+      "overview": "Chủ nhật có nhịp chậm, thiên về nghỉ ngơi, gia đình và suy nghĩ cá nhân. Nội dung ngày này được viết theo hướng nhẹ nhàng hơn, phù hợp để đọc như một gợi ý về quan hệ thân thiết, trạng thái tinh thần và sự chuẩn bị cho tuần mới.",
+      "entries": [
+        {
+          "hour": 0,
+          "label": "00:00 - 00:59",
+          "prediction": "Chủ nhật là ngày thiên về nghỉ ngơi, gia đình, chuẩn bị tuần mới. Khi hắt hơi vào đêm muộn, người ta thường luận rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Đây là lúc nên để đầu óc lắng xuống. Điều bạn đang chờ thường rõ hơn vào sáng hôm sau. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 1,
+          "label": "01:00 - 01:59",
+          "prediction": "Với chủ nhật, khung 01:00 - 01:59 thường được xem là thời điểm gợi nhắc về những điều còn lơ lửng trong đầu. Hắt hơi vào lúc này dễ báo hiệu rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Bạn nên ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 2,
+          "label": "02:00 - 02:59",
+          "prediction": "Nếu hắt hơi trong khoảng 02:00 - 02:59 của chủ nhật, cách hiểu phổ biến nghiêng về việc các quyết định quan trọng nên để sang lúc tỉnh táo hơn. Không khí của chủ nhật vốn hợp với nghỉ ngơi, nên không nên kéo cảm xúc đi quá xa. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 3,
+          "label": "03:00 - 03:59",
+          "prediction": "03:00 - 03:59 vào chủ nhật thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là sự đổi ý hoặc đổi nhịp. Vì ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc, bạn nên đọc tín hiệu này theo hướng gia đình. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 4,
+          "label": "04:00 - 04:59",
+          "prediction": "Ở chủ nhật, khi hắt hơi rơi vào rạng sáng sớm, phần diễn giải thường liên quan đến việc một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Có người quan tâm đến bạn nhưng chưa nói thành lời. Nên để ý hơn tới tín hiệu nhỏ quanh mình. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 5,
+          "label": "05:00 - 05:59",
+          "prediction": "Chủ nhật mang nhịp nghỉ ngơi, gia đình, chuẩn bị tuần mới nên khung 05:00 - 05:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khởi đầu mới. Đây là thời điểm phù hợp để chốt lại thứ tự ưu tiên. Đồng thời, việc đầu ngày thường đi vào guồng dễ hơn bạn nghĩ. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 6,
+          "label": "06:00 - 06:59",
+          "prediction": "Chủ nhật là ngày thiên về nghỉ ngơi, gia đình, chuẩn bị tuần mới. Khi hắt hơi vào buổi sáng sớm, người ta thường luận rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Bạn nên chủ động hơn trong sắp xếp. Dễ có cuộc hẹn, lời nhắc hoặc thông tin cần xử lý sớm. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 7,
+          "label": "07:00 - 07:59",
+          "prediction": "Với chủ nhật, khung 07:00 - 07:59 thường được xem là thời điểm gợi nhắc về ấn tượng ban đầu. Hắt hơi vào lúc này dễ báo hiệu rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Bạn nên ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 8,
+          "label": "08:00 - 08:59",
+          "prediction": "Nếu hắt hơi trong khoảng 08:00 - 08:59 của chủ nhật, cách hiểu phổ biến nghiêng về việc tin liên quan đến công việc hoặc lịch hẹn dễ xuất hiện. Không khí của chủ nhật vốn hợp với nghỉ ngơi, nên hãy đặt ưu tiên cho những thứ cần tập trung cao. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 9,
+          "label": "09:00 - 09:59",
+          "prediction": "09:00 - 09:59 vào chủ nhật thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là trao đổi và hỏi đáp. Vì ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc, bạn nên đọc tín hiệu này theo hướng gia đình. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 10,
+          "label": "10:00 - 10:59",
+          "prediction": "Ở chủ nhật, khi hắt hơi rơi vào gần giữa buổi sáng, phần diễn giải thường liên quan đến việc một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Dễ có người tìm đến nhờ giúp đỡ hoặc bàn chuyện hợp tác. Đừng bỏ qua cơ hội chốt những việc đang rõ dần. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 11,
+          "label": "11:00 - 11:59",
+          "prediction": "Chủ nhật mang nhịp nghỉ ngơi, gia đình, chuẩn bị tuần mới nên khung 11:00 - 11:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về mối quan hệ và cách nói. Lời nói mềm hơn một chút sẽ có lợi hơn. Đồng thời, khúc mắc nhỏ giữa người với người dễ được gỡ ra. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 12,
+          "label": "12:00 - 12:59",
+          "prediction": "Chủ nhật là ngày thiên về nghỉ ngơi, gia đình, chuẩn bị tuần mới. Khi hắt hơi vào giữa trưa, người ta thường luận rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Đừng quyết quá nhanh khi đầu óc đang mỏi. Chuyện tiền bạc hoặc cảm xúc cần chậm lại một nhịp. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 13,
+          "label": "13:00 - 13:59",
+          "prediction": "Với chủ nhật, khung 13:00 - 13:59 thường được xem là thời điểm gợi nhắc về điều chỉnh kế hoạch. Hắt hơi vào lúc này dễ báo hiệu rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Bạn nên ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 14,
+          "label": "14:00 - 14:59",
+          "prediction": "Nếu hắt hơi trong khoảng 14:00 - 14:59 của chủ nhật, cách hiểu phổ biến nghiêng về việc thường có tin vui nhỏ hoặc kết nối thuận hơn. Không khí của chủ nhật vốn hợp với nghỉ ngơi, nên giữ thái độ mở sẽ giúp cuộc nói chuyện đi xa hơn. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 15,
+          "label": "15:00 - 15:59",
+          "prediction": "15:00 - 15:59 vào chủ nhật thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là kết quả bắt đầu hé lộ. Vì ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc, bạn nên đọc tín hiệu này theo hướng gia đình. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        },
+        {
+          "hour": 16,
+          "label": "16:00 - 16:59",
+          "prediction": "Ở chủ nhật, khi hắt hơi rơi vào cuối chiều, phần diễn giải thường liên quan đến việc một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Có thể có ai đó đang nhắc đến bạn với thiện ý. Đôi khi chỉ cần chú ý hơn tới người đang theo dõi mình. Nếu đang đợi một phản hồi, bạn nên để mọi chuyện diễn ra tự nhiên hơn."
+        },
+        {
+          "hour": 17,
+          "label": "17:00 - 17:59",
+          "prediction": "Chủ nhật mang nhịp nghỉ ngơi, gia đình, chuẩn bị tuần mới nên khung 17:00 - 17:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về chốt việc và mở lời. Hợp để khép lại việc trong ngày cho gọn. Đồng thời, khả năng cao có tin nhắn hoặc lời hẹn thú vị. Đôi khi chỉ cần bớt vội là bạn sẽ nhìn ra ý nghĩa của tình huống."
+        },
+        {
+          "hour": 18,
+          "label": "18:00 - 18:59",
+          "prediction": "Chủ nhật là ngày thiên về nghỉ ngơi, gia đình, chuẩn bị tuần mới. Khi hắt hơi vào đầu buổi tối, người ta thường luận rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Nên tách bớt áp lực ban ngày khỏi thời gian buổi tối. Dễ có thông tin mới liên quan đến gia đình hoặc kế hoạch tối. Một câu nói ngắn nhưng đúng lúc có thể xoay chuyển không khí khá nhiều."
+        },
+        {
+          "hour": 19,
+          "label": "19:00 - 19:59",
+          "prediction": "Với chủ nhật, khung 19:00 - 19:59 thường được xem là thời điểm gợi nhắc về sự nhớ tới và kết nối. Hắt hơi vào lúc này dễ báo hiệu rằng một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Bạn nên ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc. Giữ tâm thế mềm và rõ sẽ giúp bạn đỡ mệt hơn trong phần còn lại của ngày."
+        },
+        {
+          "hour": 20,
+          "label": "20:00 - 20:59",
+          "prediction": "Nếu hắt hơi trong khoảng 20:00 - 20:59 của chủ nhật, cách hiểu phổ biến nghiêng về việc các trao đổi tối nay thường mang màu sắc tích cực. Không khí của chủ nhật vốn hợp với nghỉ ngơi, nên đây là lúc hợp để thả lỏng hơn là cố kiểm soát. Đây cũng là lúc nên chú ý đến chi tiết nhỏ thay vì chỉ nhìn việc lớn."
+        },
+        {
+          "hour": 21,
+          "label": "21:00 - 21:59",
+          "prediction": "21:00 - 21:59 vào chủ nhật thường không được xem là dấu hiệu xấu, mà giống một lời nhắc nhẹ. Trọng tâm của giờ này là tâm sự và bày tỏ. Vì ưu tiên sự yên ổn, nhẹ đầu và cân bằng lại cảm xúc, bạn nên đọc tín hiệu này theo hướng gia đình. Bạn không cần phản ứng ngay với mọi thứ, nhất là khi tín hiệu còn chưa đủ rõ."
+        },
+        {
+          "hour": 22,
+          "label": "22:00 - 22:59",
+          "prediction": "Ở chủ nhật, khi hắt hơi rơi vào cuối tối, phần diễn giải thường liên quan đến việc một lời hỏi thăm, một cuộc nhắn tin thân tình hoặc một sự quan tâm kín đáo đang hướng về bạn. Điều đang chờ có thể đơn giản hơn bạn tưởng. Bạn nên buông bớt những gì đang làm nặng đầu. Một lựa chọn điềm tĩnh thường có lợi hơn phản ứng cảm tính tức thời."
+        },
+        {
+          "hour": 23,
+          "label": "23:00 - 23:59",
+          "prediction": "Chủ nhật mang nhịp nghỉ ngơi, gia đình, chuẩn bị tuần mới nên khung 23:00 - 23:59 được đọc theo hướng khá thực tế. Đây là giờ dễ nhắc bạn về khép lại và chuẩn bị sang ngày mới. Phù hợp để nhìn lại thay vì cố gắng thêm một nhịp. Đồng thời, thường được hiểu là sẽ có người hỗ trợ bạn trong thời gian tới. Nếu đang phân vân, cứ để thêm thời gian rồi quyết cũng chưa muộn."
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Xem bói hắt hơi theo ngày và giờ: Tra cứu từ Thứ 2 đến Chủ nhật",
+    "description": "Tra cứu xem bói hắt hơi theo từng ngày trong tuần và 24 khung giờ trong ngày, trình bày rõ ràng và dễ đọc.",
+    "keywords": [
+      "hắt hơi theo ngày và giờ",
+      "xem bói hắt hơi theo giờ",
+      "hắt hơi theo ngày trong tuần",
+      "điềm báo hắt hơi",
+      "hắt xì hơi theo giờ"
+    ],
+    "ogImage": "/og/item-hat-hoi-theo-gio.svg",
+    "canonicalUrl": "/hat-hoi-theo-gio",
+    "noindex": false
+  }
+}

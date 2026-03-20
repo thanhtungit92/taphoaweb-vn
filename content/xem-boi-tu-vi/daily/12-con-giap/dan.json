@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-dan",
+  "slug": "dan",
+  "name": "Tuổi Dần",
+  "publishDate": "2026-03-20",
+  "summary": "Hôm nay tuổi Dần có nhiều động lực để xử lý việc quan trọng. Điều cần giữ là sự bình tĩnh để không đẩy nhịp độ lên quá cao.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Dần. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc thuận lợi khi bạn giữ được vai trò chủ động nhưng không ôm quá nhiều việc cùng lúc.",
+    "taiLoc": "Tài lộc có tín hiệu tích cực từ các việc đã làm trước đó. Tuy nhiên vẫn nên ưu tiên tính an toàn trước.",
+    "tinhCam": "Tình cảm phù hợp với sự thẳng thắn và rõ ràng. Tránh phản ứng quá nhanh khi chưa hiểu đầy đủ vấn đề.",
+    "sucKhoe": "Năng lượng trong ngày khá tốt, nhưng nên xen kẽ nghỉ ngắn để giữ độ tập trung ổn định."
+  },
+  "lucky": {
+    "mauSac": "Cam đất",
+    "conSo": "34",
+    "gioTot": "07:00 - 09:00",
+    "quyNhan": "Tuổi Ngọ"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Dần: Xem nhanh vận trình trong ngày",
+    "description": "Tử vi hôm nay tuổi Dần với phần đọc ngắn gọn về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Dần",
+      "tuổi Dần hôm nay",
+      "xem tử vi tuổi Dần"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/dan",
+    "noindex": false
+  }
+}

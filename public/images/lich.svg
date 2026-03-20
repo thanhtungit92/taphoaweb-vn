@@ -1,0 +1,16 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F1FF"/>
+      <stop offset="1" stop-color="#D3E6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#g1)"/>
+  <rect x="200" y="130" width="800" height="460" rx="24" fill="white"/>
+  <rect x="200" y="130" width="800" height="90" rx="24" fill="#1E5E9B"/>
+  <text x="250" y="188" fill="white" font-size="42" font-family="Arial, sans-serif">Lịch trực tuyến</text>
+  <text x="250" y="300" fill="#0F172A" font-size="72" font-family="Arial, sans-serif" font-weight="700">20</text>
+  <text x="250" y="360" fill="#475569" font-size="36" font-family="Arial, sans-serif">Tháng này</text>
+  <circle cx="860" cy="355" r="110" fill="#DBEAFE"/>
+  <text x="800" y="370" fill="#1E3A8A" font-size="46" font-family="Arial, sans-serif" font-weight="700">LỊCH</text>
+</svg>

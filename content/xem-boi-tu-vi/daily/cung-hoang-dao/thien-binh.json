@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-thien-binh",
+  "slug": "thien-binh",
+  "name": "Thiên Bình",
+  "publishDate": "2026-03-20",
+  "summary": "Thiên Bình hôm nay hợp với các quyết định cần sự cân bằng và nhìn nhiều phía. Giữ nhịp ổn định sẽ giúp bạn tránh bị phân tâm.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Thiên Bình. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc có lợi khi bạn đóng vai trò điều phối, kết nối và giúp mọi thứ đi vào trật tự.",
+    "taiLoc": "Tài lộc ở mức ổn. Nên ưu tiên những lựa chọn rõ ràng và tránh kéo dài các quyết định liên quan đến tiền bạc.",
+    "tinhCam": "Tình cảm thuận lợi nếu bạn nói rõ điều mình mong muốn thay vì cố giữ hòa khí bằng cách im lặng.",
+    "sucKhoe": "Nên tạo khoảng nghỉ ngắn trong ngày để đầu óc được reset, nhất là khi phải xử lý nhiều tương tác."
+  },
+  "lucky": {
+    "mauSac": "Xanh pastel",
+    "conSo": "7",
+    "gioTot": "16:00 - 18:00",
+    "quyNhan": "Song Tử"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Thiên Bình: Xem nhanh vận trình hôm nay",
+    "description": "Xem tử vi hôm nay của cung Thiên Bình với nội dung ngắn gọn về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Thiên Bình",
+      "cung Thiên Bình hôm nay",
+      "xem tử vi Thiên Bình"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/thien-binh",
+    "noindex": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-dau",
+  "slug": "dau",
+  "name": "Tuổi Dậu",
+  "publishDate": "2026-03-20",
+  "summary": "Hôm nay tuổi Dậu hợp với sự chỉn chu và tập trung vào chất lượng. Những việc cần kiểm tra kỹ sẽ là điểm mạnh của bạn.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Dậu. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển tốt khi bạn giữ tiêu chuẩn rõ ràng và không bỏ qua các chi tiết nhỏ.",
+    "taiLoc": "Tài lộc ở mức ổn định. Nên ưu tiên sự minh bạch trong các khoản chi và rà soát các quyết định liên quan đến tiền bạc.",
+    "tinhCam": "Tình cảm dễ tích cực hơn khi bạn bớt khắt khe và để đối phương có không gian chia sẻ theo cách riêng.",
+    "sucKhoe": "Nên chú ý nghỉ mắt, thư giãn cổ vai gáy và cân bằng lại thời gian sinh hoạt trong ngày."
+  },
+  "lucky": {
+    "mauSac": "Trắng kem",
+    "conSo": "11",
+    "gioTot": "07:00 - 09:00",
+    "quyNhan": "Tuổi Thìn"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Dậu: Xem nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của tuổi Dậu với phần đọc nhanh về công việc, tiền bạc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Dậu",
+      "tuổi Dậu hôm nay",
+      "xem tử vi tuổi Dậu"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/dau",
+    "noindex": false
+  }
+}

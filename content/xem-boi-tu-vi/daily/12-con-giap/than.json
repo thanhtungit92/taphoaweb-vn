@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-than",
+  "slug": "than",
+  "name": "Tuổi Thân",
+  "publishDate": "2026-03-20",
+  "summary": "Tuổi Thân hôm nay có lợi thế ở sự linh hoạt và khả năng ứng biến. Điều cần lưu ý là đừng để sự hứng khởi làm phân tán mục tiêu chính.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Thân. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc phù hợp với các nhiệm vụ cần phản xạ nhanh, giao tiếp nhiều và điều chỉnh linh hoạt theo tình huống.",
+    "taiLoc": "Tài lộc có thể đến từ những cơ hội nhỏ nhưng rõ ràng. Nên ưu tiên cái chắc trước khi nghĩ đến mở rộng.",
+    "tinhCam": "Tình cảm dễ tích cực hơn nếu bạn bớt đùa cho qua chuyện và nói rõ cảm xúc thực sự của mình.",
+    "sucKhoe": "Sức khỏe nhìn chung ổn, nhưng nên tránh làm việc quá nhiều giờ liên tục trước màn hình."
+  },
+  "lucky": {
+    "mauSac": "Bạc sáng",
+    "conSo": "27",
+    "gioTot": "19:00 - 21:00",
+    "quyNhan": "Tuổi Tý"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Thân: Xem nhanh vận trình trong ngày",
+    "description": "Tử vi hôm nay của tuổi Thân với nội dung gọn, dễ đọc về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Thân",
+      "tuổi Thân hôm nay",
+      "xem tử vi tuổi Thân"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/than",
+    "noindex": false
+  }
+}

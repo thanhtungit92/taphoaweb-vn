@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-ty",
+  "slug": "ty",
+  "name": "Tuổi Tý",
+  "publishDate": "2026-03-20",
+  "summary": "Hôm nay tuổi Tý nên ưu tiên các việc cần sự nhanh nhạy, đồng thời giữ nhịp làm việc ổn định để tránh tự tạo áp lực không cần thiết.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Tý. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc trong ngày phù hợp với các đầu việc cần xử lý nhanh, ra quyết định gọn và bám sát kế hoạch đã có sẵn.",
+    "taiLoc": "Tài lộc ở mức cân bằng. Nên ưu tiên kiểm soát dòng tiền và tránh quyết định chi tiêu theo cảm xúc nhất thời.",
+    "tinhCam": "Tình cảm thiên về sự lắng nghe và nói chuyện rõ ràng. Những trao đổi ngắn nhưng chân thành sẽ tạo hiệu quả tốt hơn.",
+    "sucKhoe": "Sức khỏe nhìn chung ổn định nếu giữ được nhịp sinh hoạt đều và không thức khuya kéo dài."
+  },
+  "lucky": {
+    "mauSac": "Xanh ngọc",
+    "conSo": "16",
+    "gioTot": "09:00 - 11:00",
+    "quyNhan": "Tuổi Thân"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Tý: Dự đoán công việc, tài lộc, tình cảm",
+    "description": "Xem tử vi hôm nay của tuổi Tý với nội dung ngắn gọn, dễ đọc về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Tý",
+      "tuổi Tý hôm nay",
+      "xem tử vi tuổi Tý"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/ty",
+    "noindex": false
+  }
+}

@@ -1,0 +1,27 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-giap" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4E8"/>
+      <stop offset="1" stop-color="#FCE7D1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#g-giap)"/>
+  <rect x="110" y="90" width="980" height="540" rx="34" fill="white"/>
+  <text x="180" y="210" fill="#9A3412" font-size="56" font-family="Arial, sans-serif" font-weight="700">Tử vi 12 con giáp</text>
+  <text x="180" y="292" fill="#475569" font-size="34" font-family="Arial, sans-serif">Tra cứu nhanh theo tuổi và biểu tượng phương Đông</text>
+  <g fill="#FDBA74">
+    <circle cx="225" cy="405" r="28"/>
+    <circle cx="315" cy="405" r="28"/>
+    <circle cx="405" cy="405" r="28"/>
+    <circle cx="495" cy="405" r="28"/>
+    <circle cx="585" cy="405" r="28"/>
+    <circle cx="675" cy="405" r="28"/>
+    <circle cx="765" cy="405" r="28"/>
+    <circle cx="855" cy="405" r="28"/>
+    <circle cx="270" cy="485" r="28"/>
+    <circle cx="360" cy="485" r="28"/>
+    <circle cx="450" cy="485" r="28"/>
+    <circle cx="540" cy="485" r="28"/>
+  </g>
+  <text x="805" y="555" fill="#C2410C" font-size="36" font-family="Arial, sans-serif" font-weight="700">12 biểu tượng</text>
+</svg>

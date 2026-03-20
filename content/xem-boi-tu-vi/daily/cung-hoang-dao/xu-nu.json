@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-xu-nu",
+  "slug": "xu-nu",
+  "name": "Xử Nữ",
+  "publishDate": "2026-03-20",
+  "summary": "Xử Nữ hôm nay hợp với nhịp làm việc có cấu trúc, rõ việc nào làm trước sau. Càng tối ưu tốt chi tiết, bạn càng bớt áp lực về cuối ngày.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Xử Nữ. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển tốt khi bạn bám kế hoạch, tránh sửa đổi quá nhiều và kiểm tra kỹ các chi tiết cuối cùng.",
+    "taiLoc": "Tài lộc thiên về sự ổn định và tối ưu. Hôm nay phù hợp để rà soát các khoản chi hoặc các đầu việc liên quan đến tiền bạc.",
+    "tinhCam": "Tình cảm sẽ nhẹ hơn khi bạn bớt kỳ vọng mọi thứ phải hoàn hảo và cho nhau không gian tự nhiên hơn.",
+    "sucKhoe": "Nên chú ý đến giấc ngủ, tiêu hóa và nhịp sinh hoạt đều để tránh cảm giác mệt âm ỉ."
+  },
+  "lucky": {
+    "mauSac": "Xanh olive",
+    "conSo": "4",
+    "gioTot": "07:00 - 09:00",
+    "quyNhan": "Kim Ngưu"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Xử Nữ: Nội dung tham khảo trong ngày",
+    "description": "Tử vi hôm nay của cung Xử Nữ với phần đọc nhanh về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Xử Nữ",
+      "cung Xử Nữ hôm nay",
+      "xem tử vi Xử Nữ"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/xu-nu",
+    "noindex": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tt-top-10-viet-nam",
+  "slug": "top-10-tin-tuc-viet-nam-hom-qua",
+  "name": "Top 10 tin tức Việt Nam hôm qua",
+  "shortDescription": "Danh sách 10 tin tức trong nước đáng chú ý nhất ngày hôm qua, được chọn lọc để bạn cập nhật tình hình nhanh và trọng tâm.",
+  "themeImage": "/images/top-10-tin-tuc-viet-nam-hom-qua.svg",
+  "redirectUrl": "/tin-tuc/viet-nam-hom-qua",
+  "tags": ["Việt Nam", "Điểm tin", "Trong nước"],
+  "featured": true,
+  "order": 2,
+  "status": "published",
+  "seo": {
+    "title": "Top 10 tin tức Việt Nam hôm qua: Điểm tin trong nước",
+    "description": "Xem nhanh top 10 tin tức Việt Nam hôm qua với nội dung tóm tắt rõ ràng, giúp bạn nắm bắt thông tin trong nước dễ dàng.",
+    "keywords": [
+      "top 10 tin tức Việt Nam hôm qua",
+      "điểm tin trong nước",
+      "tin tức Việt Nam",
+      "tin nổi bật hôm qua",
+      "tóm tắt tin Việt Nam"
+    ],
+    "ogImage": "/og/item-top-10-tin-tuc-viet-nam-hom-qua.svg",
+    "canonicalUrl": "/tin-tuc/viet-nam-hom-qua",
+    "noindex": false
+  }
+}

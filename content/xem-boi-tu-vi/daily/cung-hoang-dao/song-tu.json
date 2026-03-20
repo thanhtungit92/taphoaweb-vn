@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-song-tu",
+  "slug": "song-tu",
+  "name": "Song Tử",
+  "publishDate": "2026-03-20",
+  "summary": "Song Tử hôm nay nổi bật ở khả năng giao tiếp và kết nối. Tuy vậy, bạn nên giữ trọng tâm để tránh bị cuốn vào quá nhiều việc cùng lúc.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Song Tử. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc thuận lợi nếu bạn biết gom các đầu việc tương tự lại và xử lý theo thứ tự ưu tiên rõ ràng.",
+    "taiLoc": "Tài lộc có thể đến từ trao đổi, hợp tác hoặc thông tin mới, nhưng vẫn cần kiểm chứng trước khi quyết định.",
+    "tinhCam": "Tình cảm cần sự chú ý thật sự thay vì phản hồi nhanh cho xong. Sự hiện diện sẽ quan trọng hơn lời nói nhiều.",
+    "sucKhoe": "Nên giảm bớt cường độ tiếp nhận thông tin và dành thời gian nghỉ ngắn để đầu óc được thư giãn."
+  },
+  "lucky": {
+    "mauSac": "Vàng chanh",
+    "conSo": "5",
+    "gioTot": "14:00 - 16:00",
+    "quyNhan": "Thiên Bình"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Song Tử: Xem nhanh công việc và tài lộc",
+    "description": "Tử vi hôm nay của cung Song Tử với nội dung gọn, dễ đọc và phù hợp để tra cứu nhanh trong ngày.",
+    "keywords": [
+      "tử vi hôm nay Song Tử",
+      "cung Song Tử hôm nay",
+      "xem tử vi Song Tử"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/song-tu",
+    "noindex": false
+  }
+}

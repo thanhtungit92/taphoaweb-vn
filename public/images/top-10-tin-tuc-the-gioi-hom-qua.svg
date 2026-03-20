@@ -1,0 +1,14 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FEF3C7"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#g3)"/>
+  <rect x="130" y="100" width="940" height="520" rx="28" fill="white"/>
+  <text x="200" y="220" fill="#92400E" font-size="52" font-family="Arial, sans-serif" font-weight="700">Top 10 tin tức thế giới</text>
+  <text x="200" y="295" fill="#475569" font-size="34" font-family="Arial, sans-serif">Tóm tắt nhanh các diễn biến hôm qua</text>
+  <rect x="200" y="360" width="420" height="74" rx="16" fill="#D97706"/>
+  <text x="240" y="407" fill="white" font-size="30" font-family="Arial, sans-serif">Bản tin quốc tế</text>
+</svg>

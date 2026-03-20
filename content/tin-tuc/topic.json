@@ -1,0 +1,21 @@
+{
+  "slug": "tin-tuc",
+  "title": "Tin tức",
+  "description": "Cập nhật nhanh các chủ đề thời sự đáng quan tâm: tin tức thế giới hôm qua, tin tức Việt Nam hôm qua và biến động giá vàng hôm nay.",
+  "order": 2,
+  "featured": true,
+  "seo": {
+    "title": "Tin tức hôm nay: Thế giới, Việt Nam và giá vàng",
+    "description": "Theo dõi chuyên mục Tin tức để nắm nhanh các điểm nổi bật từ thế giới, Việt Nam và cập nhật giá vàng trong ngày.",
+    "keywords": [
+      "tin tức hôm nay",
+      "tin tức thế giới hôm qua",
+      "tin tức Việt Nam hôm qua",
+      "giá vàng hôm nay",
+      "bản tin nhanh"
+    ],
+    "ogImage": "/og/topic-tin-tuc.svg",
+    "canonicalUrl": "/tin-tuc",
+    "noindex": false
+  }
+}

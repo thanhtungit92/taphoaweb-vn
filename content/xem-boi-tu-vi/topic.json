@@ -1,0 +1,21 @@
+{
+  "slug": "xem-boi-tu-vi",
+  "title": "Xem bói / Tử vi",
+  "description": "Tổng hợp các nội dung tử vi phổ biến giúp bạn xem nhanh 12 con giáp và 12 cung hoàng đạo theo cách gọn gàng, dễ theo dõi.",
+  "order": 3,
+  "featured": true,
+  "seo": {
+    "title": "Xem bói và tử vi: 12 con giáp, 12 cung hoàng đạo",
+    "description": "Chuyên mục xem bói và tử vi tổng hợp nội dung về 12 con giáp và 12 cung hoàng đạo, trình bày ngắn gọn và dễ tra cứu.",
+    "keywords": [
+      "xem bói",
+      "tử vi 12 con giáp",
+      "tử vi cung hoàng đạo",
+      "12 con giáp",
+      "12 cung hoàng đạo"
+    ],
+    "ogImage": "/og/home-og.svg",
+    "canonicalUrl": "/xem-boi-tu-vi",
+    "noindex": false
+  }
+}

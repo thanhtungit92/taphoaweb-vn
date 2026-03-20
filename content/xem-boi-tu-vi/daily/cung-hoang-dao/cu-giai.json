@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-cu-giai",
+  "slug": "cu-giai",
+  "name": "Cự Giải",
+  "publishDate": "2026-03-20",
+  "summary": "Cự Giải hôm nay hợp với những việc cần sự tinh tế và quan tâm đến cảm xúc. Càng giữ được sự ổn định, bạn càng dễ đi hết ngày nhẹ nhàng.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Cự Giải. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc có lợi khi bạn chú ý cách phối hợp với người khác và tránh để cảm xúc ảnh hưởng quá nhiều đến quyết định.",
+    "taiLoc": "Tài lộc ở mức vừa phải. Nên ưu tiên những khoản chi thực sự cần thiết và giữ một khoảng dự phòng an toàn.",
+    "tinhCam": "Tình cảm thuận hơn khi bạn nói rõ nhu cầu và cảm xúc thay vì chờ người khác tự hiểu.",
+    "sucKhoe": "Nên chú ý giấc ngủ, nước uống và nhịp sinh hoạt đều để cơ thể không bị xuống sức về cuối ngày."
+  },
+  "lucky": {
+    "mauSac": "Trắng ngà",
+    "conSo": "2",
+    "gioTot": "18:00 - 20:00",
+    "quyNhan": "Song Ngư"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Cự Giải: Nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của cung Cự Giải với phần đọc nhanh về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Cự Giải",
+      "cung Cự Giải hôm nay",
+      "xem tử vi Cự Giải"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/cu-giai",
+    "noindex": false
+  }
+}

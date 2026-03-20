@@ -1,0 +1,14 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FEF9C3"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#g5)"/>
+  <rect x="120" y="100" width="960" height="520" rx="30" fill="white"/>
+  <text x="200" y="230" fill="#A16207" font-size="56" font-family="Arial, sans-serif" font-weight="700">Giá vàng hôm nay</text>
+  <text x="200" y="310" fill="#334155" font-size="34" font-family="Arial, sans-serif">Theo dõi biến động theo từng khung giờ</text>
+  <rect x="200" y="380" width="360" height="80" rx="16" fill="#CA8A04"/>
+  <text x="245" y="430" fill="white" font-size="34" font-family="Arial, sans-serif">Cập nhật mới</text>
+</svg>

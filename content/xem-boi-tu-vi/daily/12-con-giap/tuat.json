@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-tuat",
+  "slug": "tuat",
+  "name": "Tuổi Tuất",
+  "publishDate": "2026-03-20",
+  "summary": "Tuổi Tuất hôm nay hợp với các quyết định dựa trên sự tin cậy và nguyên tắc rõ ràng. Nên ưu tiên việc quan trọng trước việc gấp.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Tuất. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển tốt khi bạn giữ tinh thần trách nhiệm cao nhưng vẫn biết phân bổ sức hợp lý.",
+    "taiLoc": "Tài lộc nghiêng về sự ổn định. Các khoản thu chi nên được theo dõi rõ để tránh phát sinh không cần thiết.",
+    "tinhCam": "Tình cảm thuận lợi khi bạn bớt giữ trong lòng và chủ động diễn đạt điều mình đang nghĩ một cách nhẹ nhàng.",
+    "sucKhoe": "Nên ưu tiên ngủ đủ giấc và giữ nhịp sinh hoạt đều để tránh mệt mỏi kéo dài."
+  },
+  "lucky": {
+    "mauSac": "Xám xanh",
+    "conSo": "20",
+    "gioTot": "11:00 - 13:00",
+    "quyNhan": "Tuổi Ngọ"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Tuất: Xem nhanh công việc, tài lộc, tình cảm",
+    "description": "Tử vi hôm nay tuổi Tuất với nội dung ngắn gọn, dễ đọc và phù hợp để tra cứu nhanh trong ngày.",
+    "keywords": [
+      "tử vi hôm nay tuổi Tuất",
+      "tuổi Tuất hôm nay",
+      "xem tử vi tuổi Tuất"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/tuat",
+    "noindex": false
+  }
+}

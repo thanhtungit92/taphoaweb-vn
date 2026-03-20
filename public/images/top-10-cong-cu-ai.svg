@@ -1,0 +1,16 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F8F4"/>
+      <stop offset="1" stop-color="#D4F4EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#g2)"/>
+  <rect x="140" y="110" width="920" height="500" rx="30" fill="white"/>
+  <text x="220" y="240" fill="#0F766E" font-size="54" font-family="Arial, sans-serif" font-weight="700">Top 10 công cụ AI</text>
+  <text x="220" y="320" fill="#334155" font-size="34" font-family="Arial, sans-serif">Tăng năng suất học tập và làm việc</text>
+  <rect x="220" y="380" width="250" height="70" rx="14" fill="#0F766E"/>
+  <text x="255" y="427" fill="white" font-size="30" font-family="Arial, sans-serif">Danh sách mới</text>
+  <circle cx="910" cy="420" r="110" fill="#CCFBF1"/>
+  <text x="852" y="438" fill="#134E4A" font-size="48" font-family="Arial, sans-serif" font-weight="700">AI</text>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-kim-nguu",
+  "slug": "kim-nguu",
+  "name": "Kim Ngưu",
+  "publishDate": "2026-03-20",
+  "summary": "Kim Ngưu hôm nay phù hợp với các quyết định thực tế, ổn định và có cân nhắc kỹ. Càng chắc nhịp, bạn càng dễ đạt kết quả tốt.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Kim Ngưu. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc thuận lợi khi bạn đi theo quy trình rõ ràng, tránh thay đổi kế hoạch quá nhiều trong ngày.",
+    "taiLoc": "Tài lộc có xu hướng ổn định. Đây là lúc phù hợp để rà soát chi tiêu và củng cố những gì đang có.",
+    "tinhCam": "Tình cảm dễ tích cực hơn khi bạn cởi mở hơn với những điều nhỏ mà trước đây thường bỏ qua.",
+    "sucKhoe": "Nên chú ý vận động nhẹ và nghỉ đúng giờ để tránh cảm giác nặng nề, chậm chạp."
+  },
+  "lucky": {
+    "mauSac": "Xanh lá nhạt",
+    "conSo": "6",
+    "gioTot": "10:00 - 12:00",
+    "quyNhan": "Xử Nữ"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Kim Ngưu: Nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của cung Kim Ngưu với phần đọc nhanh về công việc, tiền bạc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Kim Ngưu",
+      "cung Kim Ngưu hôm nay",
+      "xem tử vi Kim Ngưu"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/kim-nguu",
+    "noindex": false
+  }
+}

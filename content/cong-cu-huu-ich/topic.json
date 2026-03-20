@@ -1,0 +1,21 @@
+{
+  "slug": "cong-cu-huu-ich",
+  "title": "Công cụ hữu ích",
+  "description": "Tổng hợp các công cụ online hỗ trợ công việc và đời sống hằng ngày: lịch tiện lợi, danh sách công cụ AI đáng dùng và nhiều tiện ích khác.",
+  "order": 1,
+  "featured": true,
+  "seo": {
+    "title": "Công cụ hữu ích mỗi ngày: Lịch online và top công cụ AI",
+    "description": "Khám phá chuyên mục Công cụ hữu ích với lịch trực tuyến dễ dùng và danh sách top công cụ AI giúp tăng hiệu suất học tập, làm việc.",
+    "keywords": [
+      "công cụ hữu ích",
+      "lịch online",
+      "lịch trực tuyến",
+      "top công cụ AI",
+      "công cụ AI cho công việc"
+    ],
+    "ogImage": "/og/topic-cong-cu-huu-ich.svg",
+    "canonicalUrl": "/cong-cu-huu-ich",
+    "noindex": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-ty-ran",
+  "slug": "ty-ran",
+  "name": "Tuổi Tỵ",
+  "publishDate": "2026-03-20",
+  "summary": "Tuổi Tỵ hôm nay hợp với lối xử lý kín kẽ, quan sát kỹ và chọn thời điểm phù hợp trước khi đưa ra quyết định quan trọng.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Tỵ. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc nên đi theo hướng chắc chắn, có cân nhắc kỹ và tránh chia sẻ quá sớm những kế hoạch chưa hoàn thiện.",
+    "taiLoc": "Tài lộc tương đối ổn nếu bạn kiểm soát tốt các khoản chi nhỏ phát sinh trong ngày.",
+    "tinhCam": "Tình cảm cần sự mềm mại hơn trong lời nói. Một thái độ bình tĩnh sẽ giúp mọi thứ nhẹ nhàng hơn.",
+    "sucKhoe": "Nên chú ý nghỉ giữa giờ và tránh để tinh thần căng thẳng kéo dài từ sáng đến tối."
+  },
+  "lucky": {
+    "mauSac": "Xanh rêu",
+    "conSo": "25",
+    "gioTot": "17:00 - 19:00",
+    "quyNhan": "Tuổi Sửu"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Tỵ: Công việc, tài lộc và tình cảm",
+    "description": "Xem tử vi hôm nay của tuổi Tỵ với nội dung ngắn gọn, rõ ràng về các mặt quan trọng trong ngày.",
+    "keywords": [
+      "tử vi hôm nay tuổi Tỵ",
+      "tuổi Tỵ hôm nay",
+      "xem tử vi tuổi Tỵ"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/ty-ran",
+    "noindex": false
+  }
+}

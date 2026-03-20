@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-song-ngu",
+  "slug": "song-ngu",
+  "name": "Song Ngư",
+  "publishDate": "2026-03-20",
+  "summary": "Song Ngư hôm nay hợp với nhịp sống mềm và trực giác tốt, nhưng vẫn cần một điểm neo thực tế để tránh phân tán cảm xúc.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Song Ngư. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển thuận hơn khi bạn kết hợp được trực giác với danh sách ưu tiên cụ thể.",
+    "taiLoc": "Tài lộc ở mức vừa phải. Nên tránh các quyết định tài chính dựa quá nhiều vào cảm xúc hoặc sự cả nể.",
+    "tinhCam": "Tình cảm phù hợp với sự chân thành và thấu hiểu. Một cuộc trò chuyện nhẹ nhàng có thể tháo gỡ nhiều điều.",
+    "sucKhoe": "Nên nghỉ ngơi đủ, giữ tinh thần ổn định và hạn chế ôm quá nhiều suy nghĩ cùng lúc."
+  },
+  "lucky": {
+    "mauSac": "Xanh biển sâu",
+    "conSo": "18",
+    "gioTot": "20:00 - 22:00",
+    "quyNhan": "Cự Giải"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Song Ngư: Nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của cung Song Ngư với phần đọc nhanh về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Song Ngư",
+      "cung Song Ngư hôm nay",
+      "xem tử vi Song Ngư"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/song-ngu",
+    "noindex": false
+  }
+}

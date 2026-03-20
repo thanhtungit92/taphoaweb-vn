@@ -1,0 +1,26 @@
+{
+  "id": "tt-gia-vang-hom-nay",
+  "slug": "gia-vang-hom-nay",
+  "name": "Giá vàng hôm nay",
+  "shortDescription": "Theo dõi biến động giá vàng trong ngày theo từng khung giờ, hỗ trợ bạn tham khảo nhanh trước khi đưa ra quyết định mua bán.",
+  "themeImage": "/images/gia-vang-hom-nay.svg",
+  "redirectUrl": "/gia-vang-hom-nay",
+  "tags": ["Giá vàng", "Thị trường", "Cập nhật ngày"],
+  "featured": true,
+  "order": 3,
+  "status": "published",
+  "seo": {
+    "title": "Giá vàng hôm nay: Cập nhật nhanh theo ngày",
+    "description": "Cập nhật giá vàng hôm nay với thông tin ngắn gọn, dễ theo dõi, phù hợp người dùng cần tra cứu nhanh mỗi ngày.",
+    "keywords": [
+      "giá vàng hôm nay",
+      "cập nhật giá vàng",
+      "giá vàng trong ngày",
+      "theo dõi giá vàng",
+      "tin giá vàng"
+    ],
+    "ogImage": "/og/item-gia-vang-hom-nay.svg",
+    "canonicalUrl": "/gia-vang-hom-nay",
+    "noindex": false
+  }
+}

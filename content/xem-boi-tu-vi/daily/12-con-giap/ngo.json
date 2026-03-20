@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-ngo",
+  "slug": "ngo",
+  "name": "Tuổi Ngọ",
+  "publishDate": "2026-03-20",
+  "summary": "Hôm nay tuổi Ngọ có xu hướng muốn tăng tốc. Khi biết chọn việc quan trọng nhất để làm trước, hiệu quả sẽ rõ rệt hơn.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Ngọ. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc phù hợp với những đầu việc cần nhịp độ nhanh nhưng vẫn phải có kiểm soát và điểm dừng rõ ràng.",
+    "taiLoc": "Tài lộc có cơ hội mở ra từ các mối quan hệ hoặc trao đổi công việc, nhưng nên kiểm tra kỹ điều kiện trước khi đồng ý.",
+    "tinhCam": "Tình cảm thuận lợi khi bạn dành thời gian hiện diện thực sự thay vì chỉ phản hồi qua loa.",
+    "sucKhoe": "Nên chú ý vận động vừa đủ và tránh tiêu hao năng lượng quá nhanh trong nửa đầu ngày."
+  },
+  "lucky": {
+    "mauSac": "Đỏ đô",
+    "conSo": "31",
+    "gioTot": "09:00 - 11:00",
+    "quyNhan": "Tuổi Dần"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Ngọ: Xem vận trình và gợi ý trong ngày",
+    "description": "Tử vi hôm nay tuổi Ngọ với phần nội dung tham khảo ngắn gọn về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Ngọ",
+      "tuổi Ngọ hôm nay",
+      "xem tử vi tuổi Ngọ"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/ngo",
+    "noindex": false
+  }
+}
