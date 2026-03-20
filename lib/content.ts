@@ -41,6 +41,7 @@ const HOROSCOPE_ENTRY_ORDER: Record<HoroscopeCollection, string[]> = {
     "song-ngu"
   ]
 };
+const VIETNAM_TIME_ZONE = "Asia/Ho_Chi_Minh";
 const HOMEPAGE_VISIBLE_ITEM_SLUGS = new Set([
   "lich",
   "tu-vi-12-con-giap",
@@ -56,6 +57,15 @@ const SIDEBAR_VISIBLE_ITEM_SLUGS = new Set([
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
+}
+
+function getTodayInVietnam(): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: VIETNAM_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date());
 }
 
 async function readJsonFile(filePath: string): Promise<unknown | null> {
@@ -346,10 +356,10 @@ export async function getAllPublishedTopicsWithItems(): Promise<TopicWithItems[]
   return getPublishedTopicsWithItems();
 }
 
-export async function getDailyHoroscopeEntries(
+async function getLegacyHoroscopeEntries(
+  collectionDir: string,
   collection: HoroscopeCollection
 ): Promise<DailyHoroscopeEntry[]> {
-  const collectionDir = path.join(HOROSCOPE_CONTENT_DIR, collection);
   let files: string[] = [];
 
   try {
@@ -377,9 +387,91 @@ export async function getDailyHoroscopeEntries(
     })
   );
 
-  const validEntries = parsedEntries.filter(
-    (entry): entry is DailyHoroscopeEntry => Boolean(entry)
+  return parsedEntries.filter((entry): entry is DailyHoroscopeEntry => Boolean(entry));
+}
+
+async function getVersionedHoroscopeEntries(
+  collectionDir: string,
+  collection: HoroscopeCollection
+): Promise<DailyHoroscopeEntry[]> {
+  const today = getTodayInVietnam();
+  let folders: string[] = [];
+
+  try {
+    const entries = await fs.readdir(collectionDir, { withFileTypes: true });
+    folders = entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name);
+  } catch (error) {
+    console.error(`[content] Không thể đọc thư mục tử vi versioned: ${collectionDir}`, error);
+    return [];
+  }
+
+  const selectedEntries = await Promise.all(
+    folders.map(async (slugFolder) => {
+      const slugDir = path.join(collectionDir, slugFolder);
+      let files: string[] = [];
+
+      try {
+        const entries = await fs.readdir(slugDir, { withFileTypes: true });
+        files = entries
+          .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
+          .map((entry) => entry.name);
+      } catch (error) {
+        console.error(`[content] Không thể đọc thư mục slug tử vi: ${slugDir}`, error);
+        return null;
+      }
+
+      const parsedVersions = await Promise.all(
+        files.map(async (file) => {
+          const filePath = path.join(slugDir, file);
+          const raw = await readJsonFile(filePath);
+          const entry = parseDailyHoroscopeEntry(raw, collection, slugFolder);
+
+          if (!entry) {
+            console.warn(`[content] Bỏ qua file tử vi lỗi định dạng: ${filePath}`);
+          }
+
+          return entry;
+        })
+      );
+
+      const eligibleEntries = parsedVersions
+        .filter((entry): entry is DailyHoroscopeEntry => Boolean(entry))
+        .filter((entry) => entry.publishDate <= today);
+
+      if (eligibleEntries.length === 0) {
+        return null;
+      }
+
+      return stableSort(
+        eligibleEntries,
+        (a, b) => b.publishDate.localeCompare(a.publishDate) || b.id.localeCompare(a.id, "vi")
+      )[0] ?? null;
+    })
   );
+
+  return selectedEntries.filter((entry): entry is DailyHoroscopeEntry => Boolean(entry));
+}
+
+export async function getDailyHoroscopeEntries(
+  collection: HoroscopeCollection
+): Promise<DailyHoroscopeEntry[]> {
+  const collectionDir = path.join(HOROSCOPE_CONTENT_DIR, collection);
+  const [legacyEntries, versionedEntries] = await Promise.all([
+    getLegacyHoroscopeEntries(collectionDir, collection),
+    getVersionedHoroscopeEntries(collectionDir, collection)
+  ]);
+
+  const mergedEntries = new Map<string, DailyHoroscopeEntry>();
+
+  for (const entry of legacyEntries) {
+    mergedEntries.set(entry.slug, entry);
+  }
+
+  for (const entry of versionedEntries) {
+    mergedEntries.set(entry.slug, entry);
+  }
+
+  const validEntries = Array.from(mergedEntries.values());
   const orderMap = new Map(
     HOROSCOPE_ENTRY_ORDER[collection].map((slug, index) => [slug, index])
   );
