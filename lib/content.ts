@@ -14,7 +14,9 @@ import type {
   TopicWithItems
 } from "@/lib/types";
 
-const CONTENT_DIR = path.join(process.cwd(), "content");
+const CONTENT_DIR = process.env.CONTENT_ROOT?.trim()
+  ? path.resolve(process.env.CONTENT_ROOT.trim())
+  : path.join(process.cwd(), "content");
 const HOROSCOPE_CONTENT_DIR = path.join(CONTENT_DIR, "xem-boi-tu-vi", "daily");
 const SNEEZE_BY_HOUR_CONTENT_FILE = path.join(
   CONTENT_DIR,

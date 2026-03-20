@@ -10,9 +10,9 @@ rm -rf "$PACKAGE_DIR"
 mkdir -p "$PACKAGE_DIR/.next"
 
 cp -R "$BUILD_DIR/"* "$PACKAGE_DIR/"
+rm -rf "$PACKAGE_DIR/content"
 cp -R "$ROOT_DIR/.next/static" "$PACKAGE_DIR/.next/static"
 cp -R "$ROOT_DIR/public" "$PACKAGE_DIR/public"
-cp -R "$ROOT_DIR/content" "$PACKAGE_DIR/content"
 cp "$ROOT_DIR/ecosystem.config.cjs" "$PACKAGE_DIR/ecosystem.config.cjs"
 cp "$ROOT_DIR/.env.example" "$PACKAGE_DIR/.env.example"
 
