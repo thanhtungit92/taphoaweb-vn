@@ -7,9 +7,9 @@ RELEASE_DIR="$ROOT_DIR/release"
 PACKAGE_DIR="$RELEASE_DIR/taphoaweb-vn"
 
 rm -rf "$PACKAGE_DIR"
-mkdir -p "$PACKAGE_DIR/.next"
+mkdir -p "$PACKAGE_DIR"
 
-cp -R "$BUILD_DIR/"* "$PACKAGE_DIR/"
+cp -R "$BUILD_DIR"/. "$PACKAGE_DIR"/
 rm -rf "$PACKAGE_DIR/content"
 cp -R "$ROOT_DIR/.next/static" "$PACKAGE_DIR/.next/static"
 cp -R "$ROOT_DIR/public" "$PACKAGE_DIR/public"
