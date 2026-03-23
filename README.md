@@ -212,16 +212,16 @@ IP không được lưu thô, chỉ lưu hash qua `ANALYTICS_SALT`.
 
 ## Gửi Email Báo Cáo Traffic
 
-Script báo cáo:
+Script báo cáo mặc định cho ngày hôm qua:
 
 ```bash
-python3 scripts/send_traffic_report.py --today
+python3 scripts/send_traffic_report.py --yesterday
 ```
 
 Chạy thử mà không gửi mail:
 
 ```bash
-python3 scripts/send_traffic_report.py --today --dry-run
+python3 scripts/send_traffic_report.py --yesterday --dry-run
 ```
 
 Gửi báo cáo cho ngày hôm qua:
@@ -233,18 +233,18 @@ python3 scripts/send_traffic_report.py --yesterday
 Wrapper tiện cho cron:
 
 ```bash
-bash scripts/run_traffic_report.sh --today
+bash scripts/run_traffic_report.sh --yesterday
 ```
 
 ### Cron gợi ý
 
-Nếu bạn muốn nhận email sau 12h trưa mỗi ngày với traffic từ đầu ngày đến thời điểm đó:
+Nếu bạn muốn nhận email ngay sau 00:00 cho traffic trọn ngày hôm trước:
 
 ```cron
-5 12 * * * cd /path/to/taphoaweb-vn && /bin/zsh -lc 'set -a && source .env && set +a && bash scripts/run_traffic_report.sh --today'
+5 0 * * * cd /path/to/taphoaweb-vn && /bin/zsh -lc 'set -a && source .env && set +a && bash scripts/run_traffic_report.sh --yesterday'
 ```
 
-Nếu bạn muốn báo cáo trọn ngày hôm trước:
+Nếu bạn muốn dời muộn hơn một chút để an toàn:
 
 ```cron
 10 0 * * * cd /path/to/taphoaweb-vn && /bin/zsh -lc 'set -a && source .env && set +a && bash scripts/run_traffic_report.sh --yesterday'
