@@ -778,6 +778,9 @@ export default async function KhoaHocLamWebsitePage() {
               <p style={{ marginTop: "16px" }}>
                 Mục tiêu là giúp bạn có một workflow thực chiến có thể lặp lại cho các dự án sau này, thay vì chỉ xem những ví dụ ngắn rồi không tự triển khai được.
               </p>
+              <p style={{ marginTop: "16px" }}>
+                Nếu bạn muốn đọc trước một bài viết nền để hiểu toàn cảnh, xem thêm <a href="/cach-tu-lam-website-voi-ai-tu-a-z-cho-nguoi-khong-biet-code" style={{ color: "var(--course-accent-dark)", fontWeight: 700, textDecoration: "underline" }}>Cách tự làm website với AI từ A-Z cho người không biết code</a>.
+              </p>
             </div>
           </div>
         </section>

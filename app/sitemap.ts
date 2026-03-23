@@ -66,6 +66,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.7
     },
+    {
+      url: `${siteUrl}/cach-tu-lam-website-voi-ai-tu-a-z-cho-nguoi-khong-biet-code`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7
+    },
     ...animalEntries.map((entry) => ({
       url: `${siteUrl}/tu-vi-12-con-giap/${entry.slug}`,
       lastModified,
