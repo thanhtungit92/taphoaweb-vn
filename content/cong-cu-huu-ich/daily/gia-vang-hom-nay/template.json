@@ -1,0 +1,65 @@
+{
+  "publishDate": "2026-03-23",
+  "updatedAt": "2026-03-23T10:30:00+07:00",
+  "title": "Giá vàng hôm nay tại Việt Nam",
+  "intro": "Trang này tổng hợp giá vàng hôm nay theo một số loại vàng phổ biến trên thị trường Việt Nam. Ngoài bảng giá tham khảo, nội dung còn kèm một đoạn phân tích ngắn về lực tăng, lực giảm trong ngày và góc nhìn ngắn hạn, dài hạn để người đọc cân nhắc tỉnh táo hơn trước khi mua vàng.",
+  "summary": "Giá vàng trong ngày có thể biến động theo giá vàng thế giới, tỷ giá, tâm lý phòng thủ của thị trường và nhu cầu mua bán trong nước. Vì vậy, nên xem bảng giá như một dữ liệu tham khảo nhanh chứ không phải tín hiệu đủ để quyết định ngay lập tức.",
+  "priceTable": [
+    {
+      "label": "Vàng SJC 1 lượng",
+      "brand": "SJC",
+      "buyPrice": "79.800.000",
+      "sellPrice": "81.800.000",
+      "unit": "VND/lượng",
+      "change": "+300.000"
+    },
+    {
+      "label": "Vàng nhẫn 9999",
+      "brand": "Nhẫn trơn 9999",
+      "buyPrice": "79.200.000",
+      "sellPrice": "80.900.000",
+      "unit": "VND/lượng",
+      "change": "+250.000"
+    },
+    {
+      "label": "Vàng 24K",
+      "brand": "24K",
+      "buyPrice": "78.900.000",
+      "sellPrice": "80.600.000",
+      "unit": "VND/lượng",
+      "change": "+200.000"
+    },
+    {
+      "label": "Vàng 18K",
+      "brand": "18K",
+      "buyPrice": "57.000.000",
+      "sellPrice": "59.000.000",
+      "unit": "VND/lượng",
+      "change": "+100.000"
+    }
+  ],
+  "analysis": {
+    "whyUp": "Giá vàng thường tăng trong ngày khi giá vàng thế giới đi lên, đồng USD suy yếu tương đối hoặc tâm lý phòng thủ quay lại sau các biến động kinh tế - tài chính. Ở thị trường trong nước, lực mua tăng ở nhóm người muốn giữ tài sản an toàn cũng có thể khiến biên giá bán ra được đẩy lên nhanh hơn.",
+    "whyDown": "Giá vàng có thể giảm khi áp lực chốt lời xuất hiện, thị trường thế giới hạ nhiệt hoặc nhà đầu tư chuyển sang các tài sản rủi ro hơn. Trong nước, mức chênh lệch mua vào - bán ra cao cũng khiến người mua thận trọng hơn, từ đó làm đà tăng yếu đi hoặc tạo nhịp điều chỉnh ngắn.",
+    "dayCommentary": "Biến động trong ngày nên được nhìn theo bối cảnh rộng hơn thay vì chỉ bám vào một nhịp tăng giảm ngắn. Với người mua tích lũy, điều quan trọng là quan sát chênh lệch giá, mục tiêu nắm giữ và khả năng chịu dao động của bản thân, thay vì phản ứng quá nhanh trước từng biến động nhỏ."
+  },
+  "advice": {
+    "shortTerm": "Ngắn hạn, nếu mua vàng theo biến động trong ngày thì cần đặc biệt chú ý chênh lệch giữa giá mua vào và bán ra, vì đây là phần dễ làm giảm hiệu quả nếu vào lệnh vội. Nên ưu tiên quan sát, chia nhỏ điểm mua và tránh tâm lý đuổi theo giá khi thị trường đang hưng phấn.",
+    "longTerm": "Dài hạn, vàng phù hợp hơn với vai trò tích lũy và phòng thủ tài sản thay vì kỳ vọng lướt sóng liên tục. Nếu mua vàng tại Việt Nam, nên xác định rõ mục tiêu nắm giữ, tỷ trọng hợp lý trong tổng tài sản và ưu tiên những thời điểm thị trường bớt hưng phấn để giải ngân từng phần."
+  },
+  "note": "Nội dung trên trang chỉ mang tính tham khảo thông tin thị trường, không phải khuyến nghị đầu tư hay mua bán vàng.",
+  "seo": {
+    "title": "Giá vàng hôm nay: Bảng giá và phân tích ngắn trong ngày",
+    "description": "Theo dõi giá vàng hôm nay theo từng loại vàng, kèm phân tích ngắn về biến động trong ngày và gợi ý tham khảo khi mua vàng ở Việt Nam.",
+    "keywords": [
+      "giá vàng hôm nay",
+      "bảng giá vàng",
+      "phân tích giá vàng trong ngày",
+      "mua vàng việt nam",
+      "giá vàng sjc"
+    ],
+    "ogImage": "/og/item-gia-vang-hom-nay.svg",
+    "canonicalUrl": "/gia-vang-hom-nay",
+    "noindex": false
+  }
+}

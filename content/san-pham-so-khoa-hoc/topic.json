@@ -1,0 +1,21 @@
+{
+  "slug": "san-pham-so-khoa-hoc",
+  "title": "Sản phẩm số & khóa học",
+  "description": "Nhóm nội dung dành cho khóa học thực chiến, tài nguyên số và các giải pháp triển khai giúp người dùng tự làm hoặc áp dụng nhanh vào công việc.",
+  "order": 4,
+  "featured": true,
+  "seo": {
+    "title": "Sản phẩm số & khóa học: Học làm web với AI và giải pháp bot",
+    "description": "Khám phá nhóm Sản phẩm số & khóa học với khóa học làm website bằng AI chi phí thấp và giải pháp trading bot tự động theo nhu cầu.",
+    "keywords": [
+      "sản phẩm số",
+      "khóa học làm website với AI",
+      "khóa học cloud chi phí thấp",
+      "giải pháp trading bot",
+      "khóa học thực chiến"
+    ],
+    "ogImage": "/og/topic-san-pham-so-khoa-hoc.svg",
+    "canonicalUrl": "/san-pham-so-khoa-hoc",
+    "noindex": false
+  }
+}

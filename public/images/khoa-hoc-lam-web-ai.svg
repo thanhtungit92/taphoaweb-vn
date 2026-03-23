@@ -1,0 +1,23 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F5E9D8"/>
+  <rect x="88" y="90" width="1024" height="720" rx="40" fill="#FFFDF8" stroke="#D9C4A6" stroke-width="8"/>
+  <rect x="136" y="138" width="928" height="88" rx="24" fill="#233D4D"/>
+  <circle cx="192" cy="182" r="14" fill="#F5E9D8"/>
+  <circle cx="240" cy="182" r="14" fill="#F5E9D8" fill-opacity="0.7"/>
+  <circle cx="288" cy="182" r="14" fill="#F5E9D8" fill-opacity="0.45"/>
+  <rect x="148" y="276" width="426" height="312" rx="28" fill="#F8F2E8" stroke="#E7D8C3" stroke-width="6"/>
+  <rect x="180" y="320" width="208" height="24" rx="12" fill="#1F5A6A"/>
+  <rect x="180" y="366" width="352" height="16" rx="8" fill="#A9804B" fill-opacity="0.6"/>
+  <rect x="180" y="398" width="326" height="16" rx="8" fill="#A9804B" fill-opacity="0.45"/>
+  <rect x="180" y="430" width="286" height="16" rx="8" fill="#A9804B" fill-opacity="0.3"/>
+  <rect x="180" y="488" width="140" height="56" rx="18" fill="#D97B2D"/>
+  <path d="M714 286H1016C1031.46 286 1044 298.536 1044 314V586C1044 601.464 1031.46 614 1016 614H714C698.536 614 686 601.464 686 586V314C686 298.536 698.536 286 714 286Z" fill="#F7E7CF" stroke="#E1C497" stroke-width="6"/>
+  <path d="M742 330H988" stroke="#244B5A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M742 378H932" stroke="#D97B2D" stroke-width="14" stroke-linecap="round"/>
+  <path d="M742 420H958" stroke="#7A5C38" stroke-width="14" stroke-linecap="round" opacity="0.6"/>
+  <path d="M742 462H900" stroke="#7A5C38" stroke-width="14" stroke-linecap="round" opacity="0.45"/>
+  <path d="M744 708C790 646 844 620 906 620C968 620 1014 646 1044 692" stroke="#233D4D" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="790" cy="706" r="22" fill="#233D4D"/>
+  <circle cx="958" cy="706" r="22" fill="#233D4D"/>
+  <text x="150" y="694" fill="#233D4D" font-size="52" font-weight="700" font-family="Georgia, serif">Học AI, cloud và deploy web thực chiến</text>
+</svg>

@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { InfoPageLayout } from "@/components/ui/InfoPageLayout";
 import { getSiteUrl } from "@/lib/seo";
 
-const title = "Liên hệ: Gửi góp ý, đề xuất nội dung hoặc báo lỗi thông tin";
+const title = "Liên hệ qua email: Hướng dẫn gửi nhu cầu khóa học hoặc trading bot";
 const description =
-  "Trang liên hệ chính thức để gửi góp ý, đề xuất nội dung, phản hồi về trải nghiệm hoặc báo thông tin chưa chính xác trên website.";
+  "Trang liên hệ chính thức hướng dẫn cách soạn email để trao đổi về khóa học làm website với AI hoặc dịch vụ build trading bot Binance.";
 
 export const metadata: Metadata = {
   title,
@@ -31,28 +31,14 @@ export default function ContactPage() {
   return (
     <InfoPageLayout
       eyebrow="Liên hệ"
-      title="Liên hệ với chúng tôi"
-      description="Nếu bạn muốn góp ý, đề xuất nội dung, báo thông tin chưa chính xác hoặc trao đổi về những vấn đề liên quan đến website, bạn có thể liên hệ qua email bên dưới."
+      title="Liên hệ qua email"
+      description="Hiện tại website sử dụng email làm kênh tiếp nhận trao đổi chính. Nếu bạn quan tâm đến khóa học hoặc dịch vụ build bot, chỉ cần soạn mail theo đúng mẫu bên dưới để việc phản hồi nhanh và rõ hơn."
       sections={[
         {
-          title: "Khi nào nên liên hệ",
-          content: (
-            <>
-              <p>Bạn có thể liên hệ trong các trường hợp như:</p>
-              <ul className="list-disc space-y-2 pl-5">
-                <li>Góp ý để website dễ dùng hơn hoặc rõ ràng hơn.</li>
-                <li>Đề xuất chủ đề, nội dung hoặc công cụ nên được bổ sung.</li>
-                <li>Báo thông tin chưa chính xác, thiếu cập nhật hoặc gây hiểu nhầm.</li>
-                <li>Trao đổi về hợp tác nội dung hoặc các vấn đề liên quan đến website.</li>
-              </ul>
-            </>
-          )
-        },
-        {
-          title: "Email liên hệ",
+          title: "Email liên hệ chính thức",
           content: (
             <p>
-              Email liên hệ chính thức:{" "}
+              Email liên hệ: {" "}
               <a
                 href="mailto:thanhtungit92@gmail.com"
                 className="font-semibold text-portal-700 underline underline-offset-4"
@@ -63,32 +49,40 @@ export default function ContactPage() {
           )
         },
         {
-          title: "Thời gian phản hồi",
+          title: "Nếu bạn muốn đăng ký khóa học",
           content: (
             <>
-              <p>
-                Các email phù hợp sẽ được xem xét và phản hồi trong thời gian hợp lý, tùy theo nội
-                dung và khối lượng công việc tại từng thời điểm.
-              </p>
-              <p>
-                Website cố gắng duy trì việc trao đổi rõ ràng và lịch sự, nhưng không đặt ra cam kết
-                phản hồi tức thời cho mọi trường hợp.
-              </p>
+              <p>Soạn email với nội dung tối thiểu như sau:</p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>Tiêu đề hoặc nội dung có mã: <strong>WEB_COURSE</strong></li>
+                <li>Zalo: số điện thoại hoặc tài khoản Zalo để liên hệ lại</li>
+                <li>Không cần mô tả thêm ở bước đầu, chỉ cần đúng mã nhu cầu và Zalo</li>
+              </ul>
             </>
           )
         },
         {
-          title: "Lưu ý khi gửi liên hệ",
+          title: "Nếu bạn muốn trao đổi về bot Binance",
+          content: (
+            <>
+              <p>Soạn email với nội dung tối thiểu như sau:</p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>Tiêu đề hoặc nội dung có mã: <strong>BOT_TRADING</strong></li>
+                <li>Zalo: số điện thoại hoặc tài khoản Zalo để liên hệ lại</li>
+                <li>Không cần mô tả chiến lược ở bước đầu, chỉ cần đúng mã nhu cầu và Zalo</li>
+              </ul>
+            </>
+          )
+        },
+        {
+          title: "Lưu ý khi gửi email",
           content: (
             <>
               <p>
-                Để việc trao đổi thuận tiện hơn, bạn nên trình bày ngắn gọn nội dung cần liên hệ,
-                kèm liên kết hoặc mô tả cụ thể nếu đang phản hồi về một trang hay một thông tin cụ
-                thể trên website.
+                Ở bước đầu, bạn chỉ cần gửi đúng mã nhu cầu và số Zalo. Các chi tiết sâu hơn sẽ được trao đổi sau khi kết nối được với nhau qua email.
               </p>
               <p>
-                Những nội dung rõ ràng, liên quan trực tiếp đến website hoặc trải nghiệm người dùng
-                thường sẽ dễ được xem xét hơn.
+                Các email phù hợp sẽ được xem xét và phản hồi trong thời gian hợp lý, tùy theo nội dung và khối lượng công việc tại từng thời điểm.
               </p>
             </>
           )

@@ -1,0 +1,31 @@
+{
+  "id": "sp-khoa-hoc-lam-web-ai",
+  "slug": "khoa-hoc-lam-website-voi-ai-chi-phi-thap",
+  "name": "Học làm website với AI",
+  "shortDescription": "Khóa học thực chiến hướng dẫn dùng AI, cloud và domain để tự build website, deploy lên internet và vận hành với chi phí thấp.",
+  "themeImage": "/images/khoa-hoc-lam-web-ai.svg",
+  "redirectUrl": "/khoa-hoc-lam-website-voi-ai-chi-phi-thap",
+  "tags": [
+    "Khóa học",
+    "AI",
+    "Cloud",
+    "Website"
+  ],
+  "featured": true,
+  "order": 1,
+  "status": "published",
+  "seo": {
+    "title": "Học làm website với AI",
+    "description": "Khóa học thực chiến giúp bạn dùng AI để build website, chạy local, deploy cloud, gắn domain riêng và làm chủ workflow tạo sản phẩm.",
+    "keywords": [
+      "khóa học làm website với AI",
+      "tự làm website với AI",
+      "deploy cloud chi phí thấp",
+      "khóa học domain hosting",
+      "khóa học web thực chiến"
+    ],
+    "ogImage": "/og/item-khoa-hoc-lam-web-ai.svg",
+    "canonicalUrl": "/khoa-hoc-lam-website-voi-ai-chi-phi-thap",
+    "noindex": false
+  }
+}

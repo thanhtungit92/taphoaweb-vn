@@ -1,0 +1,30 @@
+{
+  "id": "sp-giai-phap-trading-bot",
+  "slug": "giai-phap-trading-bot-tu-dong",
+  "name": "Build trading bot Binance",
+  "shortDescription": "Hỗ trợ build trading bot Binance theo đúng chiến lược của bạn để tự động hóa mở lệnh, đóng lệnh và quản lý vận hành rõ ràng hơn.",
+  "themeImage": "/images/giai-phap-trading-bot.svg",
+  "redirectUrl": "/giai-phap-trading-bot-tu-dong",
+  "tags": [
+    "Binance",
+    "Trading bot",
+    "Tự động hóa"
+  ],
+  "featured": true,
+  "order": 2,
+  "status": "published",
+  "seo": {
+    "title": "Hỗ trợ build trading bot Binance theo chiến lược riêng",
+    "description": "Dịch vụ hỗ trợ build trading bot Binance theo chiến lược của bạn, tập trung vào tự động hóa thực thi và vận hành rõ ràng hơn.",
+    "keywords": [
+      "trading bot tự động",
+      "giải pháp trading bot",
+      "bot giao dịch tự động",
+      "thiết kế trading bot",
+      "trading bot theo nhu cầu"
+    ],
+    "ogImage": "/og/item-trading-bot.svg",
+    "canonicalUrl": "/giai-phap-trading-bot-tu-dong",
+    "noindex": false
+  }
+}
