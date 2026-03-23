@@ -7,6 +7,21 @@ import { getItemBySlug, getSidebarTopics } from "@/lib/content";
 import { convertLunarToSolar, getLunarDate } from "@/lib/lunar";
 import { getSiteUrl } from "@/lib/seo";
 
+export const dynamic = "force-dynamic";
+
+const VIETNAM_TIME_ZONE = "Asia/Ho_Chi_Minh";
+
+function getCurrentVietnamDate() {
+  const dateKey = new Intl.DateTimeFormat("en-CA", {
+    timeZone: VIETNAM_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date());
+
+  return new Date(`${dateKey}T12:00:00+07:00`);
+}
+
 const WEEKDAY_LABELS = ["T2", "T3", "T4", "T5", "T6", "T7", "CN"];
 
 type BaseSpecialDay = {
@@ -290,7 +305,7 @@ export default async function CalendarPage() {
     notFound();
   }
 
-  const today = new Date();
+  const today = getCurrentVietnamDate();
   const currentYear = today.getFullYear();
   const currentMonthIndex = today.getMonth();
   const currentDay = today.getDate();
