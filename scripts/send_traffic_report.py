@@ -71,6 +71,28 @@ def top_lines(counter: Counter[str], empty_label: str, limit: int = 5) -> list[s
     return [f"- {label}: {count}" for label, count in counter.most_common(limit)]
 
 
+def page_breakdown_lines(rows: list[dict[str, object]]) -> list[str]:
+    if not rows:
+        return ["- Không có dữ liệu: 0 pageview / 0 visitor"]
+
+    grouped: dict[str, list[dict[str, object]]] = {}
+    for row in rows:
+        path = str(row.get("path", "/"))
+        grouped.setdefault(path, []).append(row)
+
+    sorted_items = sorted(
+        grouped.items(),
+        key=lambda item: (-len(item[1]), item[0])
+    )
+
+    lines: list[str] = []
+    for path, path_rows in sorted_items:
+        visitors = len({str(row.get("visitorId", "")) for row in path_rows if row.get("visitorId")})
+        lines.append(f"- {path}: {len(path_rows)} pageview / {visitors} visitor")
+
+    return lines
+
+
 def build_report(day_key: str, rows: list[dict[str, object]]) -> str:
     total_pageviews = len(rows)
     unique_visitors = len({str(row.get("visitorId", "")) for row in rows if row.get("visitorId")})
@@ -88,6 +110,9 @@ def build_report(day_key: str, rows: list[dict[str, object]]) -> str:
             "",
             f"- Tổng pageview: {total_pageviews}",
             f"- Unique visitor: {unique_visitors}",
+            "",
+            "Chi tiết theo trang:",
+            *page_breakdown_lines(rows),
             "",
             "Top path:",
             *top_lines(top_paths, "Không có dữ liệu"),
