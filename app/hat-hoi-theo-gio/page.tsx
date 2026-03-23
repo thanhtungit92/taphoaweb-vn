@@ -56,6 +56,24 @@ export default async function HatHoiTheoGioPage() {
     notFound();
   }
 
+  const faqItems = [
+    {
+      question: "Hắt hơi theo giờ là gì?",
+      answer: "Đây là cách diễn giải dân gian dựa trên thời điểm bạn hắt hơi trong ngày và trong tuần. Nội dung phù hợp để tham khảo hoặc đọc cho vui, không phải kết luận chắc chắn về điều sắp xảy ra."
+    },
+    {
+      question: "Có nên tin tuyệt đối vào nội dung hắt hơi theo giờ không?",
+      answer: "Không. Bạn nên xem đây là nội dung tham khảo mang tính dân gian và giải trí. Các quyết định quan trọng trong công việc, tiền bạc hay sức khỏe không nên dựa hoàn toàn vào kiểu diễn giải này."
+    },
+    {
+      question: "Nên xem theo giờ nào nếu hắt hơi nhiều lần?",
+      answer: "Bạn có thể ưu tiên khung giờ gần nhất với lần hắt hơi mà mình chú ý rõ nhất. Mục đích là để tra cứu thuận tiện, không cần quá cứng nhắc khi đối chiếu từng phút."
+    },
+    {
+      question: "Khi nào nên dừng việc diễn giải và chú ý sức khỏe?",
+      answer: "Nếu bạn hắt hơi liên tục, kéo dài hoặc kèm cảm giác khó chịu, nghẹt mũi, đau đầu hay mệt mỏi, nên ưu tiên theo dõi sức khỏe thay vì tiếp tục đọc nội dung theo hướng điềm báo."
+    }
+  ];
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -98,7 +116,36 @@ export default async function HatHoiTheoGioPage() {
               </section>
 
               <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
-                <h2 className="text-2xl font-bold text-slate-900">Cách xem bảng hắt hơi theo ngày và giờ</h2>
+                <div className="border-b border-slate-200 pb-5">
+                  <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
+                    Giải thích nhanh
+                  </p>
+                  <h2 className="mt-2 text-2xl font-bold text-slate-900">Hắt hơi theo giờ là gì?</h2>
+                </div>
+
+                <div className="mt-6 grid gap-4 md:grid-cols-2">
+                  <article className="rounded-3xl border border-sky-200 bg-sky-50/70 p-5">
+                    <h3 className="text-xl font-bold text-slate-900">Nội dung dân gian để tham khảo</h3>
+                    <p className="mt-3 text-sm leading-6 text-slate-700">
+                      Hắt hơi theo giờ thường được truyền miệng như một cách đọc vui dựa trên khung giờ và ngày trong tuần. Nó phù hợp với người muốn xem nhanh một diễn giải dân gian, nhưng không nên hiểu như một cơ sở chắc chắn cho điều sẽ xảy ra.
+                    </p>
+                  </article>
+                  <article className="rounded-3xl border border-slate-200 bg-slate-50/70 p-5">
+                    <h3 className="text-xl font-bold text-slate-900">Phù hợp để đọc theo hướng giải trí</h3>
+                    <p className="mt-3 text-sm leading-6 text-slate-700">
+                      Với các nội dung kiểu này, giá trị chính nằm ở trải nghiệm tham khảo và góc nhìn văn hóa dân gian. Nếu đọc theo tinh thần nhẹ nhàng, bạn sẽ thấy nội dung hữu ích hơn là cố xem đó như một dự đoán tuyệt đối.
+                    </p>
+                  </article>
+                </div>
+              </section>
+
+              <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
+                <div className="border-b border-slate-200 pb-5">
+                  <h2 className="text-2xl font-bold text-slate-900">Cách xem bảng hắt hơi theo ngày và giờ</h2>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">
+                    Dùng đúng ngày trong tuần và khung giờ gần nhất để tra cứu sẽ giúp bạn đọc nội dung nhất quán hơn.
+                  </p>
+                </div>
                 <div className="mt-4 grid gap-3 md:grid-cols-3">
                   {content.howToUse.map((item) => (
                     <div
@@ -107,6 +154,44 @@ export default async function HatHoiTheoGioPage() {
                     >
                       <p className="text-sm leading-6 text-slate-700">{item}</p>
                     </div>
+                  ))}
+                </div>
+              </section>
+
+              <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
+                <div className="border-b border-slate-200 pb-5">
+                  <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">Lưu ý quan trọng</p>
+                  <h2 className="mt-2 text-2xl font-bold text-slate-900">Khi nào nên xem cho vui và khi nào không nên dựa vào nội dung này?</h2>
+                </div>
+
+                <div className="mt-6 grid gap-4 md:grid-cols-2">
+                  <article className="rounded-3xl border border-emerald-200 bg-emerald-50/70 p-5">
+                    <h3 className="text-xl font-bold text-slate-900">Phù hợp để tham khảo</h3>
+                    <p className="mt-3 text-sm leading-6 text-slate-700">
+                      Khi bạn chỉ muốn xem nhanh một nội dung dân gian theo giờ, đọc cho vui hoặc tìm thêm một góc nhìn nhẹ nhàng trong ngày, trang này là đủ phù hợp.
+                    </p>
+                  </article>
+                  <article className="rounded-3xl border border-rose-200 bg-rose-50/70 p-5">
+                    <h3 className="text-xl font-bold text-slate-900">Không nên dùng để quyết định việc quan trọng</h3>
+                    <p className="mt-3 text-sm leading-6 text-slate-700">
+                      Các quyết định về sức khỏe, tiền bạc, công việc hoặc quan hệ cá nhân vẫn nên dựa trên dữ kiện thực tế. Nội dung này không thay thế cho đánh giá thực tế hay tư vấn chuyên môn.
+                    </p>
+                  </article>
+                </div>
+              </section>
+
+              <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
+                <div className="border-b border-slate-200 pb-5">
+                  <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">FAQ</p>
+                  <h2 className="mt-2 text-2xl font-bold text-slate-900">Câu hỏi thường gặp</h2>
+                </div>
+
+                <div className="mt-6 space-y-4">
+                  {faqItems.map((item) => (
+                    <article key={item.question} className="rounded-3xl border border-slate-200 bg-slate-50/60 p-5">
+                      <h3 className="text-lg font-bold text-slate-900">{item.question}</h3>
+                      <p className="mt-3 text-sm leading-6 text-slate-700">{item.answer}</p>
+                    </article>
                   ))}
                 </div>
               </section>
