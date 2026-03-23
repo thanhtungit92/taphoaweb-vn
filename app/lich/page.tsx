@@ -318,6 +318,46 @@ export default async function CalendarPage() {
     month: "long",
     year: "numeric"
   }).format(today);
+  const isWeekendToday = currentWeekdayIndex >= 5;
+  const currentQuarter = Math.floor(currentMonthIndex / 3) + 1;
+  const weekOfYear = Math.ceil(
+    ((today.getTime() - new Date(currentYear, 0, 1).getTime()) / 86400000 + new Date(currentYear, 0, 1).getDay() + 1) / 7
+  );
+  const quickFacts = [
+    {
+      label: "Tháng hiện tại",
+      value: `Tháng ${currentMonthIndex + 1}`,
+      detail: `Quý ${currentQuarter} · Tuần ${weekOfYear} của năm ${currentYear}`
+    },
+    {
+      label: "Trạng thái ngày",
+      value: isWeekendToday ? "Cuối tuần" : "Ngày làm việc",
+      detail: isWeekendToday ? "Phù hợp nghỉ ngơi, sắp xếp việc cá nhân hoặc gia đình." : "Phù hợp lên kế hoạch công việc và theo dõi lịch hằng ngày."
+    },
+    {
+      label: "Âm lịch hôm nay",
+      value: `${lunarDate.day}/${lunarDate.month}${lunarDate.isLeap ? " nhuận" : ""}`,
+      detail: `Năm ${getCanChiYear(lunarDate.year)}`
+    }
+  ];
+  const faqItems = [
+    {
+      question: "Hôm nay là thứ mấy và ngày mấy?",
+      answer: `Hôm nay là ${fullDateLabel}. Bạn có thể xem nhanh ngay ở phần đầu trang mà không cần tra cứu nhiều bước.`
+    },
+    {
+      question: "Khi nào nên dùng lịch trực tuyến?",
+      answer: "Lịch trực tuyến phù hợp khi bạn cần xem nhanh ngày hiện tại, theo dõi vị trí ngày trong tháng và kiểm tra mốc thời gian hằng ngày trên cả điện thoại lẫn máy tính."
+    },
+    {
+      question: "Khi nào nên xem lịch dương và khi nào nên xem lịch âm?",
+      answer: "Lịch dương phù hợp cho công việc, học tập và lịch sinh hoạt hiện đại. Lịch âm thường hữu ích khi bạn cần theo dõi các dịp lễ truyền thống, ngày rằm, mùng một hoặc mốc văn hóa quen thuộc tại Việt Nam."
+    },
+    {
+      question: "Vì sao nhiều người xem lịch mỗi ngày?",
+      answer: "Vì đây là cách nhanh nhất để kiểm tra ngày hiện tại, sắp xếp kế hoạch cá nhân, theo dõi cuối tuần, ngày lễ và chủ động hơn trong công việc hằng ngày."
+    }
+  ];
   const { vietnamHolidays, vietnamCulturalDays, westernEvents } = getSpecialDays(currentYear);
 
   return (
@@ -441,6 +481,72 @@ export default async function CalendarPage() {
                         );
                       })}
                     </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+
+            <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
+              <div className="border-b border-slate-200 pb-5">
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
+                  Thông tin nhanh hôm nay
+                </p>
+                <h2 className="mt-2 text-2xl font-bold text-slate-900">Tóm tắt nhanh để xem trong vài giây</h2>
+              </div>
+
+              <div className="mt-6 grid gap-4 md:grid-cols-3">
+                {quickFacts.map((fact) => (
+                  <article key={fact.label} className="rounded-3xl border border-slate-200 bg-slate-50/70 p-5">
+                    <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">{fact.label}</p>
+                    <p className="mt-3 text-xl font-bold text-slate-900">{fact.value}</p>
+                    <p className="mt-2 text-sm leading-6 text-slate-600">{fact.detail}</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+
+            <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
+              <div className="border-b border-slate-200 pb-5">
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
+                  Lịch trực tuyến dùng để làm gì
+                </p>
+                <h2 className="mt-2 text-2xl font-bold text-slate-900">Khi nào nên xem lịch dương và lịch âm?</h2>
+              </div>
+
+              <div className="mt-6 grid gap-4 md:grid-cols-2">
+                <article className="rounded-3xl border border-sky-200 bg-sky-50/70 p-5">
+                  <h3 className="text-xl font-bold text-slate-900">Lịch dương cho nhu cầu hằng ngày</h3>
+                  <p className="mt-3 text-sm leading-6 text-slate-700">
+                    Lịch dương phù hợp cho công việc, học tập, lịch họp, deadline và các hoạt động diễn ra theo nhịp sinh hoạt hiện đại. Khi bạn cần xem hôm nay là ngày mấy, thứ mấy hoặc đang ở tuần nào trong năm, lịch dương là cách tra cứu nhanh và trực tiếp nhất.
+                  </p>
+                </article>
+                <article className="rounded-3xl border border-amber-200 bg-amber-50/70 p-5">
+                  <h3 className="text-xl font-bold text-slate-900">Lịch âm cho mốc văn hóa quen thuộc</h3>
+                  <p className="mt-3 text-sm leading-6 text-slate-700">
+                    Lịch âm thường hữu ích khi bạn muốn theo dõi các dịp như mùng một, ngày rằm, lễ truyền thống hoặc những mốc mang tính văn hóa trong đời sống người Việt. Việc xem song song cả hai loại lịch giúp bạn chủ động hơn khi sắp xếp lịch cá nhân và gia đình.
+                  </p>
+                </article>
+              </div>
+
+              <article className="mt-4 rounded-3xl border border-slate-200 bg-slate-50/70 p-5">
+                <h3 className="text-xl font-bold text-slate-900">Vì sao nhiều người xem lịch online mỗi ngày?</h3>
+                <p className="mt-3 text-sm leading-6 text-slate-700">
+                  Vì lịch online giúp kiểm tra ngày hiện tại nhanh hơn, dễ dùng trên điện thoại, thuận tiện khi cần xem cuối tuần, ngày lễ hoặc đối chiếu nhanh giữa ngày dương và ngày âm. Với người dùng phổ thông, đây là một công cụ nhỏ nhưng có tần suất sử dụng lặp lại rất cao trong đời sống hằng ngày.
+                </p>
+              </article>
+            </section>
+
+            <section className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-card md:p-8">
+              <div className="border-b border-slate-200 pb-5">
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">FAQ</p>
+                <h2 className="mt-2 text-2xl font-bold text-slate-900">Câu hỏi thường gặp khi xem lịch hôm nay</h2>
+              </div>
+
+              <div className="mt-6 space-y-4">
+                {faqItems.map((item) => (
+                  <article key={item.question} className="rounded-3xl border border-slate-200 bg-slate-50/60 p-5">
+                    <h3 className="text-lg font-bold text-slate-900">{item.question}</h3>
+                    <p className="mt-3 text-sm leading-6 text-slate-700">{item.answer}</p>
                   </article>
                 ))}
               </div>
