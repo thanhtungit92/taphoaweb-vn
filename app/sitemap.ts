@@ -25,6 +25,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9
     },
     {
+      url: `${siteUrl}/gia-vang-hom-nay`,
+      lastModified,
+      changeFrequency: "daily",
+      priority: 0.8
+    },
+    {
+      url: `${siteUrl}/top-10-cong-cu-ai`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8
+    },
+    {
       url: `${siteUrl}/tu-vi-12-con-giap`,
       lastModified,
       changeFrequency: "weekly",
@@ -38,6 +50,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${siteUrl}/hat-hoi-theo-gio`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7
+    },
+    {
+      url: `${siteUrl}/khoa-hoc-lam-website-voi-ai-chi-phi-thap`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.7
+    },
+    {
+      url: `${siteUrl}/giai-phap-trading-bot-tu-dong`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.7

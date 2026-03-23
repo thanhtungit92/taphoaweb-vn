@@ -1,0 +1,108 @@
+{
+  "publishMonth": "2026-03",
+  "updatedAt": "2026-03-23 14:20",
+  "title": "Top 10 công cụ AI được dùng nhiều nhất hiện tại",
+  "intro": "Danh sách tháng này tập trung vào các công cụ AI đang được dùng nhiều cho viết nội dung, hỗ trợ lập trình, thiết kế hình ảnh, nghiên cứu và tự động hóa công việc hàng ngày.",
+  "summary": "Nếu bạn muốn chọn nhanh công cụ AI phù hợp với nhu cầu thực tế thay vì thử quá nhiều sản phẩm cùng lúc, danh sách này giúp bạn nhìn rõ công cụ nào đang nổi bật, vì sao đáng dùng và chi phí ở mức phổ thông mỗi tháng.",
+  "tools": [
+    {
+      "rank": 1,
+      "name": "ChatGPT",
+      "useCase": "Viết nội dung, brainstorm, nghiên cứu, hỗ trợ code và xử lý công việc hằng ngày.",
+      "whyUse": "Dễ dùng, đa năng, phù hợp cả người không kỹ thuật lẫn người làm sản phẩm hoặc lập trình.",
+      "monthlyCost": "Khoảng 20 USD/tháng cho nhu cầu cá nhân phổ thông với gói trả phí cơ bản.",
+      "lastMonthUsage": "Mức quan tâm vẫn thuộc nhóm cao nhất, thường đứng đầu trong các danh sách công cụ AI cho cá nhân và đội nhỏ."
+    },
+    {
+      "rank": 2,
+      "name": "Claude",
+      "useCase": "Đọc tài liệu dài, phân tích nội dung, hỗ trợ viết và làm việc với văn bản phức tạp.",
+      "whyUse": "Phù hợp khi cần xử lý tài liệu dài, trả lời mạch lạc và giữ ngữ cảnh tốt.",
+      "monthlyCost": "Khoảng 20 USD/tháng cho nhu cầu cá nhân nếu cần dùng thường xuyên.",
+      "lastMonthUsage": "Tiếp tục tăng hiện diện trong nhóm người dùng chuyên xử lý tài liệu và viết lách chuyên sâu."
+    },
+    {
+      "rank": 3,
+      "name": "Gemini",
+      "useCase": "Tìm kiếm hỗ trợ AI, tóm tắt, hỗ trợ công việc văn phòng và kết nối hệ sinh thái Google.",
+      "whyUse": "Thuận tiện với người đã dùng Gmail, Docs, Drive và các công cụ Google khác.",
+      "monthlyCost": "Từ miễn phí đến khoảng 20 USD/tháng tùy gói và tần suất sử dụng.",
+      "lastMonthUsage": "Giữ mức dùng ổn định nhờ tệp người dùng Google lớn và nhu cầu văn phòng phổ thông."
+    },
+    {
+      "rank": 4,
+      "name": "Midjourney",
+      "useCase": "Tạo hình ảnh minh họa, concept art, visual marketing và ý tưởng thiết kế.",
+      "whyUse": "Chất lượng hình ảnh mạnh, hợp với designer, marketer và người làm nội dung số.",
+      "monthlyCost": "Thường từ 10 đến 30 USD/tháng tùy mức độ tạo ảnh.",
+      "lastMonthUsage": "Vẫn nằm trong nhóm công cụ tạo ảnh được nhắc đến nhiều nhất ở mảng sáng tạo."
+    },
+    {
+      "rank": 5,
+      "name": "Perplexity",
+      "useCase": "Nghiên cứu nhanh, tổng hợp thông tin có nguồn, hỗ trợ tìm kiếm theo câu hỏi.",
+      "whyUse": "Tiết kiệm thời gian tìm tài liệu và phù hợp khi cần câu trả lời ngắn gọn có dẫn nguồn.",
+      "monthlyCost": "Khoảng 20 USD/tháng nếu dùng gói nâng cao cho nghiên cứu thường xuyên.",
+      "lastMonthUsage": "Tăng đều trong nhóm người dùng cần tìm kiếm nhanh và tổng hợp có kiểm chứng."
+    },
+    {
+      "rank": 6,
+      "name": "GitHub Copilot",
+      "useCase": "Hỗ trợ viết code, gợi ý hàm, refactor và tăng tốc công việc lập trình.",
+      "whyUse": "Rất phù hợp với dev cần tăng tốc coding trong IDE quen thuộc.",
+      "monthlyCost": "Khoảng 10 USD/tháng cho cá nhân.",
+      "lastMonthUsage": "Ổn định ở nhóm công cụ AI cho lập trình viên nhờ mức độ tích hợp cao."
+    },
+    {
+      "rank": 7,
+      "name": "Canva AI",
+      "useCase": "Thiết kế nhanh bài đăng, slide, banner và nội dung marketing đơn giản.",
+      "whyUse": "Dễ tiếp cận với người không chuyên thiết kế và tiết kiệm thời gian làm visual cơ bản.",
+      "monthlyCost": "Khoảng 10 đến 15 USD/tháng ở gói phổ thông cho cá nhân hoặc nhóm nhỏ.",
+      "lastMonthUsage": "Duy trì tốt trong nhóm người làm social, bán hàng và nội dung online."
+    },
+    {
+      "rank": 8,
+      "name": "Notion AI",
+      "useCase": "Tóm tắt ghi chú, soạn nội dung, hỗ trợ quản lý công việc và tài liệu nội bộ.",
+      "whyUse": "Hữu ích nếu bạn đã dùng Notion làm trung tâm quản lý công việc cá nhân hoặc team.",
+      "monthlyCost": "Thường cộng thêm khoảng 8 đến 10 USD/tháng tùy gói sử dụng.",
+      "lastMonthUsage": "Giữ mức dùng khá ổn định ở nhóm startup nhỏ và người làm việc theo hệ thống."
+    },
+    {
+      "rank": 9,
+      "name": "Runway",
+      "useCase": "Tạo và chỉnh sửa video bằng AI, hỗ trợ dựng clip ngắn và nội dung quảng bá.",
+      "whyUse": "Phù hợp với người làm video marketing cần rút ngắn thời gian sản xuất.",
+      "monthlyCost": "Khoảng 15 đến 35 USD/tháng tùy mức sử dụng video và render.",
+      "lastMonthUsage": "Mức quan tâm tăng ở nhóm creator và marketer làm video ngắn."
+    },
+    {
+      "rank": 10,
+      "name": "Cursor",
+      "useCase": "Lập trình với AI trong editor, hỗ trợ sửa code, giải thích code và build nhanh prototype.",
+      "whyUse": "Phù hợp với người build sản phẩm nhanh bằng AI, đặc biệt khi cần chỉnh sửa code trực tiếp liên tục.",
+      "monthlyCost": "Khoảng 20 USD/tháng ở gói phổ thông cho cá nhân dùng đều.",
+      "lastMonthUsage": "Tăng nhanh trong nhóm dev và indie maker nhờ workflow code-first với AI."
+    }
+  ],
+  "analysis": {
+    "overview": "Nhóm công cụ được dùng nhiều nhất hiện tại vẫn xoay quanh ba nhu cầu chính: chat AI đa năng, AI hỗ trợ lập trình và AI sáng tạo nội dung hình ảnh hoặc video.",
+    "selectionNote": "Nếu bạn mới bắt đầu, nên chọn một công cụ chat AI đa năng trước. Sau đó mới bổ sung công cụ chuyên sâu cho code, thiết kế hoặc nghiên cứu để tối ưu chi phí hàng tháng."
+  },
+  "note": "Danh sách mang tính tham khảo theo thời điểm cập nhật. Chi phí và mức độ phổ biến có thể thay đổi theo thị trường, gói dịch vụ và khu vực sử dụng.",
+  "seo": {
+    "title": "Top 10 công cụ AI được dùng nhiều nhất hiện tại",
+    "description": "Xem top 10 công cụ AI nổi bật của tháng, biết AI dùng để làm gì, vì sao nên dùng, chi phí sử dụng phổ thông và mức độ quan tâm gần đây.",
+    "keywords": [
+      "top 10 công cụ AI",
+      "công cụ AI phổ biến",
+      "AI được dùng nhiều nhất",
+      "chi phí công cụ AI",
+      "AI cho công việc"
+    ],
+    "ogImage": "/og/item-top-10-cong-cu-ai.svg",
+    "canonicalUrl": "/top-10-cong-cu-ai",
+    "noindex": false
+  }
+}

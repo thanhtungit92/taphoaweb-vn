@@ -1,0 +1,36 @@
+{
+  "publishMonth": "YYYY-MM",
+  "updatedAt": "YYYY-MM-DD HH:mm",
+  "title": "Top 10 công cụ AI được dùng nhiều nhất hiện tại",
+  "intro": "Tổng hợp 10 công cụ AI đang được người dùng quan tâm và sử dụng nhiều trong tháng, phù hợp cho công việc, học tập, sáng tạo nội dung và tự động hóa quy trình cá nhân.",
+  "summary": "Danh sách tham khảo theo tháng giúp bạn nhìn nhanh công cụ nào đang nổi bật, dùng để làm gì, vì sao nên cân nhắc sử dụng và chi phí thực tế ở mức phổ thông.",
+  "tools": [
+    {
+      "rank": 1,
+      "name": "Tên AI",
+      "useCase": "AI này dùng để làm gì",
+      "whyUse": "Tại sao nên sử dụng AI này",
+      "monthlyCost": "Chi phí cho nhu cầu bình thường hàng tháng",
+      "lastMonthUsage": "Ước tính hoặc mô tả lượt sử dụng của tháng trước"
+    }
+  ],
+  "analysis": {
+    "overview": "Nhận định ngắn về xu hướng dùng công cụ AI trong tháng.",
+    "selectionNote": "Giải thích cách đọc danh sách và cách chọn công cụ phù hợp theo nhu cầu thực tế."
+  },
+  "note": "Danh sách mang tính tham khảo theo thời điểm cập nhật. Chi phí và độ phổ biến có thể thay đổi theo sản phẩm, gói dịch vụ và thị trường.",
+  "seo": {
+    "title": "Top 10 công cụ AI được dùng nhiều nhất hiện tại",
+    "description": "Xem top 10 công cụ AI nổi bật của tháng, biết AI dùng để làm gì, vì sao nên dùng, chi phí sử dụng phổ thông và mức độ quan tâm gần đây.",
+    "keywords": [
+      "top 10 công cụ AI",
+      "công cụ AI phổ biến",
+      "AI được dùng nhiều nhất",
+      "chi phí công cụ AI",
+      "AI cho công việc"
+    ],
+    "ogImage": "/og/item-top-10-cong-cu-ai.svg",
+    "canonicalUrl": "/top-10-cong-cu-ai",
+    "noindex": false
+  }
+}

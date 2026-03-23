@@ -5,8 +5,10 @@ import { asArrayOfStrings, clampOrder, normalizePath, stableSort } from "@/lib/u
 import type {
   ContentItem,
   DailyHoroscopeEntry,
+  GoldPriceDailyContent,
   HomepageData,
   HoroscopeCollection,
+  MonthlyAiToolsContent,
   SeoFields,
   SneezeByHourContent,
   SneezeByWeekday,
@@ -18,6 +20,8 @@ const CONTENT_DIR = process.env.CONTENT_ROOT?.trim()
   ? path.resolve(process.env.CONTENT_ROOT.trim())
   : path.join(process.cwd(), "content");
 const HOROSCOPE_CONTENT_DIR = path.join(CONTENT_DIR, "xem-boi-tu-vi", "daily");
+const GOLD_PRICE_CONTENT_DIR = path.join(CONTENT_DIR, "cong-cu-huu-ich", "daily", "gia-vang-hom-nay");
+const MONTHLY_AI_TOOLS_CONTENT_DIR = path.join(CONTENT_DIR, "cong-cu-huu-ich", "monthly", "top-10-cong-cu-ai");
 const SNEEZE_BY_HOUR_CONTENT_FILE = path.join(
   CONTENT_DIR,
   "xem-boi-tu-vi",
@@ -44,15 +48,23 @@ const HOROSCOPE_ENTRY_ORDER: Record<HoroscopeCollection, string[]> = {
 const VIETNAM_TIME_ZONE = "Asia/Ho_Chi_Minh";
 const HOMEPAGE_VISIBLE_ITEM_SLUGS = new Set([
   "lich",
+  "gia-vang-hom-nay",
+  "top-10-cong-cu-ai",
   "tu-vi-12-con-giap",
   "tu-vi-cung-hoang-dao",
-  "hat-hoi-theo-gio"
+  "hat-hoi-theo-gio",
+  "khoa-hoc-lam-website-voi-ai-chi-phi-thap",
+  "giai-phap-trading-bot-tu-dong"
 ]);
 const SIDEBAR_VISIBLE_ITEM_SLUGS = new Set([
   "lich",
+  "gia-vang-hom-nay",
+  "top-10-cong-cu-ai",
   "tu-vi-12-con-giap",
   "tu-vi-cung-hoang-dao",
-  "hat-hoi-theo-gio"
+  "hat-hoi-theo-gio",
+  "khoa-hoc-lam-website-voi-ai-chi-phi-thap",
+  "giai-phap-trading-bot-tu-dong"
 ]);
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -211,6 +223,151 @@ function parseDailyHoroscopeEntry(
     },
     seo: parseSeoFields(input.seo, name, summary),
     collection
+  };
+}
+
+function parseGoldPriceDailyContent(input: unknown): GoldPriceDailyContent | null {
+  if (!isRecord(input)) {
+    return null;
+  }
+
+  if (
+    typeof input.publishDate !== "string" ||
+    typeof input.updatedAt !== "string" ||
+    typeof input.title !== "string" ||
+    typeof input.intro !== "string" ||
+    typeof input.summary !== "string" ||
+    typeof input.note !== "string" ||
+    !Array.isArray(input.priceTable) ||
+    !isRecord(input.analysis) ||
+    !isRecord(input.advice)
+  ) {
+    return null;
+  }
+
+  const priceTable = input.priceTable.reduce<GoldPriceDailyContent["priceTable"]>((acc, entry) => {
+    if (
+      !isRecord(entry) ||
+      typeof entry.label !== "string" ||
+      typeof entry.brand !== "string" ||
+      typeof entry.buyPrice !== "string" ||
+      typeof entry.sellPrice !== "string" ||
+      typeof entry.unit !== "string"
+    ) {
+      return acc;
+    }
+
+    acc.push({
+      label: entry.label,
+      brand: entry.brand,
+      buyPrice: entry.buyPrice,
+      sellPrice: entry.sellPrice,
+      unit: entry.unit,
+      ...(typeof entry.change === "string" ? { change: entry.change } : {})
+    });
+    return acc;
+  }, []);
+
+  const analysis = input.analysis;
+  const advice = input.advice;
+
+  if (
+    priceTable.length === 0 ||
+    typeof analysis.whyUp !== "string" ||
+    typeof analysis.whyDown !== "string" ||
+    typeof analysis.dayCommentary !== "string" ||
+    typeof advice.shortTerm !== "string" ||
+    typeof advice.longTerm !== "string"
+  ) {
+    return null;
+  }
+
+  return {
+    publishDate: input.publishDate,
+    updatedAt: input.updatedAt,
+    title: input.title,
+    intro: input.intro,
+    summary: input.summary,
+    priceTable,
+    analysis: {
+      whyUp: analysis.whyUp,
+      whyDown: analysis.whyDown,
+      dayCommentary: analysis.dayCommentary
+    },
+    advice: {
+      shortTerm: advice.shortTerm,
+      longTerm: advice.longTerm
+    },
+    note: input.note,
+    seo: parseSeoFields(input.seo, input.title, input.summary)
+  };
+}
+
+function parseMonthlyAiToolsContent(input: unknown): MonthlyAiToolsContent | null {
+  if (!isRecord(input)) {
+    return null;
+  }
+
+  if (
+    typeof input.publishMonth !== "string" ||
+    typeof input.updatedAt !== "string" ||
+    typeof input.title !== "string" ||
+    typeof input.intro !== "string" ||
+    typeof input.summary !== "string" ||
+    typeof input.note !== "string" ||
+    !Array.isArray(input.tools) ||
+    !isRecord(input.analysis)
+  ) {
+    return null;
+  }
+
+  const tools = input.tools.reduce<MonthlyAiToolsContent["tools"]>((acc, entry) => {
+    if (
+      !isRecord(entry) ||
+      typeof entry.rank !== "number" ||
+      typeof entry.name !== "string" ||
+      typeof entry.useCase !== "string" ||
+      typeof entry.whyUse !== "string" ||
+      typeof entry.monthlyCost !== "string" ||
+      typeof entry.lastMonthUsage !== "string"
+    ) {
+      return acc;
+    }
+
+    acc.push({
+      rank: entry.rank,
+      name: entry.name,
+      useCase: entry.useCase,
+      whyUse: entry.whyUse,
+      monthlyCost: entry.monthlyCost,
+      lastMonthUsage: entry.lastMonthUsage
+    });
+    return acc;
+  }, []);
+
+  const analysis = input.analysis;
+
+  if (
+    tools.length === 0 ||
+    typeof analysis.overview !== "string" ||
+    typeof analysis.selectionNote !== "string"
+  ) {
+    return null;
+  }
+
+  return {
+    publishMonth: input.publishMonth,
+    updatedAt: input.updatedAt,
+    title: input.title,
+    intro: input.intro,
+    summary: input.summary,
+    tools: stableSort(tools, (a, b) => a.rank - b.rank || a.name.localeCompare(b.name, "vi")),
+    analysis: {
+      overview: analysis.overview,
+      selectionNote: analysis.selectionNote
+    },
+    note: input.note,
+    seo: parseSeoFields(input.seo, input.title, input.summary)
   };
 }
 
@@ -492,6 +649,88 @@ export async function getDailyHoroscopeBySlug(
 ): Promise<DailyHoroscopeEntry | null> {
   const entries = await getDailyHoroscopeEntries(collection);
   return entries.find((entry) => entry.slug === slug) ?? null;
+}
+
+export async function getGoldPriceDailyContent(): Promise<GoldPriceDailyContent | null> {
+  const today = getTodayInVietnam();
+  let files: string[] = [];
+
+  try {
+    const entries = await fs.readdir(GOLD_PRICE_CONTENT_DIR, { withFileTypes: true });
+    files = entries
+      .filter((entry) => entry.isFile() && entry.name.endsWith(".json") && /^\d{4}-\d{2}-\d{2}\.json$/u.test(entry.name))
+      .map((entry) => entry.name);
+  } catch (error) {
+    console.error(`[content] Không thể đọc nội dung giá vàng: ${GOLD_PRICE_CONTENT_DIR}`, error);
+    return null;
+  }
+
+  const parsedEntries = await Promise.all(
+    files.map(async (file) => {
+      const raw = await readJsonFile(path.join(GOLD_PRICE_CONTENT_DIR, file));
+      const content = parseGoldPriceDailyContent(raw);
+
+      if (!content) {
+        console.warn(`[content] Bỏ qua file giá vàng lỗi định dạng: ${file}`);
+      }
+
+      return content;
+    })
+  );
+
+  const eligibleEntries = parsedEntries
+    .filter((entry): entry is GoldPriceDailyContent => Boolean(entry))
+    .filter((entry) => entry.publishDate <= today);
+
+  if (eligibleEntries.length === 0) {
+    return null;
+  }
+
+  return stableSort(
+    eligibleEntries,
+    (a, b) => b.publishDate.localeCompare(a.publishDate) || b.updatedAt.localeCompare(a.updatedAt)
+  )[0] ?? null;
+}
+
+export async function getMonthlyAiToolsContent(): Promise<MonthlyAiToolsContent | null> {
+  const todayMonth = getTodayInVietnam().slice(0, 7);
+  let files: string[] = [];
+
+  try {
+    const entries = await fs.readdir(MONTHLY_AI_TOOLS_CONTENT_DIR, { withFileTypes: true });
+    files = entries
+      .filter((entry) => entry.isFile() && entry.name.endsWith(".json") && /^\d{4}-\d{2}\.json$/u.test(entry.name))
+      .map((entry) => entry.name);
+  } catch (error) {
+    console.error(`[content] Không thể đọc nội dung top 10 công cụ AI: ${MONTHLY_AI_TOOLS_CONTENT_DIR}`, error);
+    return null;
+  }
+
+  const parsedEntries = await Promise.all(
+    files.map(async (file) => {
+      const raw = await readJsonFile(path.join(MONTHLY_AI_TOOLS_CONTENT_DIR, file));
+      const content = parseMonthlyAiToolsContent(raw);
+
+      if (!content) {
+        console.warn(`[content] Bỏ qua file top 10 công cụ AI lỗi định dạng: ${file}`);
+      }
+
+      return content;
+    })
+  );
+
+  const eligibleEntries = parsedEntries
+    .filter((entry): entry is MonthlyAiToolsContent => Boolean(entry))
+    .filter((entry) => entry.publishMonth <= todayMonth);
+
+  if (eligibleEntries.length === 0) {
+    return null;
+  }
+
+  return stableSort(
+    eligibleEntries,
+    (a, b) => b.publishMonth.localeCompare(a.publishMonth) || b.updatedAt.localeCompare(a.updatedAt)
+  )[0] ?? null;
 }
 
 export async function getSneezeByHourContent(): Promise<SneezeByHourContent | null> {

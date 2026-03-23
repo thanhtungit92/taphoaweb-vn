@@ -62,6 +62,59 @@ export type DailyHoroscopeEntry = {
   collection: HoroscopeCollection;
 };
 
+export type GoldPriceEntry = {
+  label: string;
+  brand: string;
+  buyPrice: string;
+  sellPrice: string;
+  unit: string;
+  change?: string;
+};
+
+export type GoldPriceDailyContent = {
+  publishDate: string;
+  updatedAt: string;
+  title: string;
+  intro: string;
+  summary: string;
+  priceTable: GoldPriceEntry[];
+  analysis: {
+    whyUp: string;
+    whyDown: string;
+    dayCommentary: string;
+  };
+  advice: {
+    shortTerm: string;
+    longTerm: string;
+  };
+  note: string;
+  seo: SeoFields;
+};
+
+export type MonthlyAiToolEntry = {
+  rank: number;
+  name: string;
+  useCase: string;
+  whyUse: string;
+  monthlyCost: string;
+  lastMonthUsage: string;
+};
+
+export type MonthlyAiToolsContent = {
+  publishMonth: string;
+  updatedAt: string;
+  title: string;
+  intro: string;
+  summary: string;
+  tools: MonthlyAiToolEntry[];
+  analysis: {
+    overview: string;
+    selectionNote: string;
+  };
+  note: string;
+  seo: SeoFields;
+};
+
 export type SneezeByHourEntry = {
   hour: number;
   label: string;
