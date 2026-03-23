@@ -164,6 +164,16 @@ Xem file `.env.example`:
 SITE_URL=
 REVALIDATE_SECRET=
 NEXT_PUBLIC_SITE_NAME=
+CONTENT_ROOT=
+ANALYTICS_ROOT=
+ANALYTICS_SALT=
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=
+SMTP_PASSWORD=
+SMTP_USE_TLS=true
+MAIL_FROM=
+MAIL_TO=thanhtungit92@gmail.com
 ```
 
 Ý nghĩa:
@@ -171,6 +181,86 @@ NEXT_PUBLIC_SITE_NAME=
 - `SITE_URL`: domain chuẩn để tạo canonical URL, Open Graph URL.
 - `REVALIDATE_SECRET`: secret bảo vệ API `/api/revalidate`.
 - `NEXT_PUBLIC_SITE_NAME`: tên site hiển thị cho metadata và structured data.
+- `CONTENT_ROOT`: thư mục content dùng chung trên server nếu bạn tách content khỏi release.
+- `ANALYTICS_ROOT`: thư mục lưu log traffic dạng file JSONL.
+- `ANALYTICS_SALT`: salt để hash IP trước khi ghi log.
+- `SMTP_*`, `MAIL_FROM`, `MAIL_TO`: cấu hình gửi email báo cáo traffic.
+
+## Traffic Analytics
+
+Project có analytics first-party nhẹ:
+
+- Client tracker gửi pageview vào `POST /api/analytics/pageview`
+- Server ghi log JSONL vào `ANALYTICS_ROOT/pageviews/YYYY-MM-DD.jsonl`
+- Không dùng database
+- Có lọc bot đơn giản bằng `user-agent`
+
+Các field chính được log:
+
+- `timestamp`
+- `path`
+- `url`
+- `referrer`
+- `visitorId`
+- `ipHash`
+- `userAgent`
+- `screen`
+- `language`
+- `timeZone`
+
+IP không được lưu thô, chỉ lưu hash qua `ANALYTICS_SALT`.
+
+## Gửi Email Báo Cáo Traffic
+
+Script báo cáo:
+
+```bash
+python3 scripts/send_traffic_report.py --today
+```
+
+Chạy thử mà không gửi mail:
+
+```bash
+python3 scripts/send_traffic_report.py --today --dry-run
+```
+
+Gửi báo cáo cho ngày hôm qua:
+
+```bash
+python3 scripts/send_traffic_report.py --yesterday
+```
+
+Wrapper tiện cho cron:
+
+```bash
+bash scripts/run_traffic_report.sh --today
+```
+
+### Cron gợi ý
+
+Nếu bạn muốn nhận email sau 12h trưa mỗi ngày với traffic từ đầu ngày đến thời điểm đó:
+
+```cron
+5 12 * * * cd /path/to/taphoaweb-vn && /bin/zsh -lc 'set -a && source .env && set +a && bash scripts/run_traffic_report.sh --today'
+```
+
+Nếu bạn muốn báo cáo trọn ngày hôm trước:
+
+```cron
+10 0 * * * cd /path/to/taphoaweb-vn && /bin/zsh -lc 'set -a && source .env && set +a && bash scripts/run_traffic_report.sh --yesterday'
+```
+
+### Gợi ý cấu hình Gmail SMTP
+
+```env
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=thanhtungit92@gmail.com
+SMTP_PASSWORD=YOUR_GMAIL_APP_PASSWORD
+SMTP_USE_TLS=true
+MAIL_FROM=thanhtungit92@gmail.com
+MAIL_TO=thanhtungit92@gmail.com
+```
 
 ## Chạy local
 

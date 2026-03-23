@@ -7,6 +7,7 @@
     "build": "next build --webpack",
     "start": "next start",
     "package:standalone": "bash scripts/package-standalone.sh",
+    "traffic:report": "python3 scripts/send_traffic_report.py --today",
     "lint": "eslint app components lib",
     "typecheck": "tsc --noEmit"
   },

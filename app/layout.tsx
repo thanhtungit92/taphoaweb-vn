@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 
+import { PageViewTracker } from "@/components/analytics/PageViewTracker";
 import { Container } from "@/components/ui/Container";
 import { buildHomepageMetadata } from "@/lib/seo";
 
@@ -12,6 +14,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="vi">
       <body className="antialiased">
+        <Suspense fallback={null}>
+          <PageViewTracker />
+        </Suspense>
         <div className="flex min-h-screen flex-col">
           <div className="flex-1">{children}</div>
 
