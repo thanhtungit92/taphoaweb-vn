@@ -39,6 +39,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/terms" className="font-medium transition hover:text-portal-700">
                   Điều khoản
                 </Link>
+                <Link href="/privacy" className="font-medium transition hover:text-portal-700">
+                  Bảo mật
+                </Link>
               </nav>
             </Container>
           </footer>
