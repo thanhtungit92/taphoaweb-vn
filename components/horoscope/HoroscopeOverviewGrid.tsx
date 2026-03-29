@@ -16,7 +16,9 @@ export function HoroscopeOverviewGrid({
       {entries.map((entry) => (
         <Link
           key={entry.id}
-          href={`${entry.collection === "12-con-giap" ? "/tu-vi-12-con-giap" : "/tu-vi-cung-hoang-dao"}/${entry.slug}`}
+          href={`${
+            entry.collection === "12-con-giap" ? "/tu-vi-12-con-giap" : "/tu-vi-cung-hoang-dao"
+          }/${entry.slug}/${entry.publishDate}`}
           className="group block cursor-pointer rounded-2xl border border-slate-200 bg-slate-50/80 p-5 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-portal-500 focus-visible:ring-offset-2"
           aria-label={`Mở tử vi hôm nay của ${entry.name}`}
         >

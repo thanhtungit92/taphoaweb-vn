@@ -80,6 +80,10 @@ function getTodayInVietnam(): string {
   }).format(new Date());
 }
 
+export function getCurrentVietnamDate(): string {
+  return getTodayInVietnam();
+}
+
 async function readJsonFile(filePath: string): Promise<unknown | null> {
   try {
     const content = await fs.readFile(filePath, "utf-8");
@@ -551,7 +555,6 @@ async function getVersionedHoroscopeEntries(
   collectionDir: string,
   collection: HoroscopeCollection
 ): Promise<DailyHoroscopeEntry[]> {
-  const today = getTodayInVietnam();
   let folders: string[] = [];
 
   try {
@@ -562,7 +565,9 @@ async function getVersionedHoroscopeEntries(
     return [];
   }
 
-  const selectedEntries = await Promise.all(
+  const entriesByDate = new Map<string, Map<string, DailyHoroscopeEntry>>();
+
+  await Promise.all(
     folders.map(async (slugFolder) => {
       const slugDir = path.join(collectionDir, slugFolder);
       let files: string[] = [];
@@ -574,7 +579,7 @@ async function getVersionedHoroscopeEntries(
           .map((entry) => entry.name);
       } catch (error) {
         console.error(`[content] Không thể đọc thư mục slug tử vi: ${slugDir}`, error);
-        return null;
+        return;
       }
 
       const parsedVersions = await Promise.all(
@@ -591,22 +596,57 @@ async function getVersionedHoroscopeEntries(
         })
       );
 
-      const eligibleEntries = parsedVersions
-        .filter((entry): entry is DailyHoroscopeEntry => Boolean(entry))
-        .filter((entry) => entry.publishDate <= today);
-
-      if (eligibleEntries.length === 0) {
-        return null;
+      for (const entry of parsedVersions.filter((candidate): candidate is DailyHoroscopeEntry => Boolean(candidate))) {
+        const dateEntries = entriesByDate.get(entry.publishDate) ?? new Map<string, DailyHoroscopeEntry>();
+        dateEntries.set(entry.slug, entry);
+        entriesByDate.set(entry.publishDate, dateEntries);
       }
-
-      return stableSort(
-        eligibleEntries,
-        (a, b) => b.publishDate.localeCompare(a.publishDate) || b.id.localeCompare(a.id, "vi")
-      )[0] ?? null;
     })
   );
 
-  return selectedEntries.filter((entry): entry is DailyHoroscopeEntry => Boolean(entry));
+  const today = getTodayInVietnam();
+  const expectedSlugs = HOROSCOPE_ENTRY_ORDER[collection];
+  const preferredDate = stableSort(
+    Array.from(entriesByDate.keys()).filter((publishDate) => {
+      if (publishDate > today) {
+        return false;
+      }
+
+      const dateEntries = entriesByDate.get(publishDate);
+      return expectedSlugs.every((slug) => dateEntries?.has(slug));
+    }),
+    (a, b) => b.localeCompare(a)
+  )[0];
+
+  if (!preferredDate) {
+    return [];
+  }
+
+  const selectedEntries = entriesByDate.get(preferredDate);
+  if (!selectedEntries) {
+    return [];
+  }
+
+  return expectedSlugs
+    .map((slug) => selectedEntries.get(slug) ?? null)
+    .filter((entry): entry is DailyHoroscopeEntry => Boolean(entry));
+}
+
+async function getVersionedHoroscopeEntryBySlugAndDate(
+  collectionDir: string,
+  collection: HoroscopeCollection,
+  slug: string,
+  date: string
+): Promise<DailyHoroscopeEntry | null> {
+  const filePath = path.join(collectionDir, slug, `${date}.json`);
+  const raw = await readJsonFile(filePath);
+  const entry = parseDailyHoroscopeEntry(raw, collection, slug);
+
+  if (!entry || entry.publishDate !== date) {
+    return null;
+  }
+
+  return entry;
 }
 
 export async function getDailyHoroscopeEntries(
@@ -649,6 +689,23 @@ export async function getDailyHoroscopeBySlug(
 ): Promise<DailyHoroscopeEntry | null> {
   const entries = await getDailyHoroscopeEntries(collection);
   return entries.find((entry) => entry.slug === slug) ?? null;
+}
+
+export async function getDailyHoroscopeBySlugAndDate(
+  collection: HoroscopeCollection,
+  slug: string,
+  date: string
+): Promise<DailyHoroscopeEntry | null> {
+  const collectionDir = path.join(HOROSCOPE_CONTENT_DIR, collection);
+  const versionedEntry = await getVersionedHoroscopeEntryBySlugAndDate(collectionDir, collection, slug, date);
+
+  if (versionedEntry) {
+    return versionedEntry;
+  }
+
+  const legacyEntries = await getLegacyHoroscopeEntries(collectionDir, collection);
+  const legacyEntry = legacyEntries.find((entry) => entry.slug === slug && entry.publishDate === date);
+  return legacyEntry ?? null;
 }
 
 export async function getGoldPriceDailyContent(): Promise<GoldPriceDailyContent | null> {

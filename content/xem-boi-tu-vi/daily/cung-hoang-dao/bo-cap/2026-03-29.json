@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-bo-cap",
+  "slug": "bo-cap",
+  "name": "Bọ Cạp",
+  "publishDate": "2026-03-29",
+  "summary": "Bọ Cạp hôm nay hợp với cách xử lý sâu, chắc và ít phô trương. Đây là ngày tốt để tập trung vào điều thực sự quan trọng.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Bọ Cạp. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển tốt khi bạn làm kỹ, giữ bí mật những gì cần thiết và không để yếu tố bên ngoài kéo lệch hướng.",
+    "taiLoc": "Tài lộc phù hợp với cách tiếp cận thận trọng. Nên ưu tiên hiểu rõ bản chất vấn đề trước khi xuống tiền.",
+    "tinhCam": "Tình cảm cần sự chân thành và trực diện hơn. Giấu quá nhiều dễ khiến khoảng cách bị kéo dài.",
+    "sucKhoe": "Nên chú ý trạng thái tinh thần, ngủ đủ và tránh để áp lực âm thầm tích tụ nhiều ngày liên tiếp."
+  },
+  "lucky": {
+    "mauSac": "Đỏ mận",
+    "conSo": "8",
+    "gioTot": "20:00 - 22:00",
+    "quyNhan": "Cự Giải"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Bọ Cạp: Nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của cung Bọ Cạp với phần đọc nhanh, rõ ràng về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Bọ Cạp",
+      "cung Bọ Cạp hôm nay",
+      "xem tử vi Bọ Cạp"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/bo-cap",
+    "noindex": false
+  }
+}

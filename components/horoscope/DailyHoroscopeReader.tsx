@@ -25,7 +25,7 @@ export function DailyHoroscopeReader({
       <section className={`rounded-[2rem] border border-slate-200 p-6 shadow-card md:p-8 ${themeClassName}`}>
         <div className="flex flex-wrap items-center gap-2">
           <span className={`rounded-full border px-3 py-1 text-xs font-semibold ${badgeClassName}`}>
-            Bản đọc hôm nay
+            Bản đọc theo ngày
           </span>
           <span className="rounded-full border border-slate-200 bg-white/85 px-3 py-1 text-xs font-semibold text-slate-700">
             Ngày cập nhật: {entry.publishDate}

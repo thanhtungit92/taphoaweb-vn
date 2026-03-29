@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
-import { DailyHoroscopeReader } from "@/components/horoscope/DailyHoroscopeReader";
-import { Container } from "@/components/ui/Container";
-import { ContentSidebar } from "@/components/ui/ContentSidebar";
-import { getDailyHoroscopeBySlug, getDailyHoroscopeEntries, getSidebarTopics } from "@/lib/content";
+import { getDailyHoroscopeBySlug, getDailyHoroscopeEntries } from "@/lib/content";
 import { getSiteUrl } from "@/lib/seo";
 
 export const revalidate = 86400;
@@ -55,26 +52,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function TuVi12ConGiapDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const [entry, sidebarTopics] = await Promise.all([
-    getDailyHoroscopeBySlug("12-con-giap", slug),
-    getSidebarTopics()
-  ]);
+  const entry = await getDailyHoroscopeBySlug("12-con-giap", slug);
 
   if (!entry) {
     notFound();
   }
 
-  return (
-    <main className="py-8 pb-24 md:py-10 xl:pb-10">
-      <Container className="max-w-none">
-        <div className="grid gap-4 xl:grid-cols-[248px_minmax(0,1fr)]">
-          <ContentSidebar topics={sidebarTopics} />
-
-          <div className="min-w-0">
-            <DailyHoroscopeReader entry={entry} theme="animal" />
-          </div>
-        </div>
-      </Container>
-    </main>
-  );
+  redirect(`/tu-vi-12-con-giap/${slug}/${entry.publishDate}`);
 }

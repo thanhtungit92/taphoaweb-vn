@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-thin",
+  "slug": "thin",
+  "name": "Tuổi Thìn",
+  "publishDate": "2026-03-29",
+  "summary": "Hôm nay tuổi Thìn có cơ hội tạo ra chuyển động mới trong công việc nếu biết ưu tiên đúng việc và giữ nhịp triển khai thực tế.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Thìn. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc thuận lợi khi bạn tập trung vào một vài đầu việc cốt lõi thay vì mở rộng quá nhiều hướng cùng lúc.",
+    "taiLoc": "Tài lộc có tín hiệu khả quan nếu bạn bám chặt các nguyên tắc đã đặt ra từ trước, nhất là với các khoản đầu tư nhỏ.",
+    "tinhCam": "Tình cảm cần sự chủ động lắng nghe và tránh để cái tôi cá nhân làm nặng không khí trao đổi.",
+    "sucKhoe": "Nên cân bằng lại lịch nghỉ ngơi, nhất là khi khối lượng công việc tăng cao hơn bình thường."
+  },
+  "lucky": {
+    "mauSac": "Vàng nhạt",
+    "conSo": "19",
+    "gioTot": "11:00 - 13:00",
+    "quyNhan": "Tuổi Dậu"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Thìn: Xem nhanh vận trình trong ngày",
+    "description": "Tử vi hôm nay của tuổi Thìn với nội dung tham khảo ngắn gọn về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Thìn",
+      "tuổi Thìn hôm nay",
+      "xem tử vi tuổi Thìn"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/thin",
+    "noindex": false
+  }
+}

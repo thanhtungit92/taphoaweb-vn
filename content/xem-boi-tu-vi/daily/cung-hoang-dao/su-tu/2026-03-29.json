@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-su-tu",
+  "slug": "su-tu",
+  "name": "Sư Tử",
+  "publishDate": "2026-03-29",
+  "summary": "Sư Tử hôm nay có nhiều năng lượng thể hiện bản thân. Điều quan trọng là dùng nguồn lực đó đúng chỗ và tránh quá đà trong tranh luận.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Sư Tử. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc phù hợp khi bạn đứng ra dẫn dắt hoặc chốt việc, nhưng vẫn cần để ý đến ý kiến của người xung quanh.",
+    "taiLoc": "Tài lộc có điểm sáng nếu bạn tập trung vào giá trị thật và tránh chi tiêu để tạo ấn tượng bên ngoài.",
+    "tinhCam": "Tình cảm thuận hơn khi bạn thể hiện sự quan tâm bằng hành động cụ thể thay vì chỉ nói cho có khí thế.",
+    "sucKhoe": "Nên cân bằng giữa làm việc và nghỉ ngơi để giữ năng lượng đều từ sáng tới tối."
+  },
+  "lucky": {
+    "mauSac": "Vàng đồng",
+    "conSo": "1",
+    "gioTot": "09:00 - 11:00",
+    "quyNhan": "Bạch Dương"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Sư Tử: Xem vận trình trong ngày",
+    "description": "Xem tử vi hôm nay của cung Sư Tử với nội dung ngắn gọn, rõ ràng và dễ tra cứu trong ngày.",
+    "keywords": [
+      "tử vi hôm nay Sư Tử",
+      "cung Sư Tử hôm nay",
+      "xem tử vi Sư Tử"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/su-tu",
+    "noindex": false
+  }
+}

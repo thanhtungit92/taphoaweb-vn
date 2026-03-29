@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-hoi",
+  "slug": "hoi",
+  "name": "Tuổi Hợi",
+  "publishDate": "2026-03-29",
+  "summary": "Hôm nay tuổi Hợi hợp với nhịp sống cân bằng và cách xử lý không quá vội. Sự bình tĩnh sẽ giúp bạn nhìn rõ thứ tự ưu tiên hơn.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Hợi. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc phù hợp với hướng xử lý mềm nhưng dứt khoát, nhất là ở các việc cần phối hợp hoặc thống nhất ý kiến.",
+    "taiLoc": "Tài lộc ở mức ổn định. Nên ưu tiên giữ thế cân bằng hơn là chạy theo các cơ hội chưa được kiểm chứng kỹ.",
+    "tinhCam": "Tình cảm dễ tiến triển tích cực khi bạn thể hiện sự quan tâm một cách thực tế và kiên nhẫn hơn.",
+    "sucKhoe": "Nên chú ý chế độ ăn và giữ cơ thể vận động nhẹ để tránh cảm giác uể oải trong ngày."
+  },
+  "lucky": {
+    "mauSac": "Xanh biển nhạt",
+    "conSo": "18",
+    "gioTot": "15:00 - 17:00",
+    "quyNhan": "Tuổi Mão"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Hợi: Xem nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của tuổi Hợi với phần đọc nhanh về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Hợi",
+      "tuổi Hợi hôm nay",
+      "xem tử vi tuổi Hợi"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/hoi",
+    "noindex": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-mui",
+  "slug": "mui",
+  "name": "Tuổi Mùi",
+  "publishDate": "2026-03-29",
+  "summary": "Tuổi Mùi hôm nay nên ưu tiên sự ổn định, tránh tự kéo mình vào các quyết định quá gấp khi thông tin còn chưa đầy đủ.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Mùi. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển tốt khi bạn làm chắc từng bước và chủ động kiểm tra lại những phần dễ nhầm lẫn.",
+    "taiLoc": "Tài lộc phù hợp với chiến lược bảo toàn và cân đối. Nên hạn chế các khoản chi chưa thật sự cần thiết.",
+    "tinhCam": "Tình cảm dễ dịu lại khi bạn nói chuyện với thái độ mềm hơn và tránh nhắc lại chuyện cũ.",
+    "sucKhoe": "Nên chú ý nghỉ ngơi đầy đủ, đặc biệt nếu gần đây bạn có xu hướng suy nghĩ nhiều hoặc ngủ không sâu."
+  },
+  "lucky": {
+    "mauSac": "Kem sáng",
+    "conSo": "14",
+    "gioTot": "13:00 - 15:00",
+    "quyNhan": "Tuổi Mão"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Mùi: Nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của tuổi Mùi với phần đọc nhanh về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Mùi",
+      "tuổi Mùi hôm nay",
+      "xem tử vi tuổi Mùi"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/mui",
+    "noindex": false
+  }
+}

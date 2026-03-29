@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-ma-ket",
+  "slug": "ma-ket",
+  "name": "Ma Kết",
+  "publishDate": "2026-03-29",
+  "summary": "Ma Kết hôm nay hợp với nhịp làm việc kỷ luật, có mục tiêu rõ và ít bị tác động bởi những yếu tố bên ngoài không cần thiết.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Ma Kết. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc có lợi khi bạn ưu tiên việc cốt lõi, làm chắc từng bước và không bị cuốn vào các yêu cầu ngoài lề.",
+    "taiLoc": "Tài lộc thiên về sự bền vững. Đây là thời điểm hợp để kiểm tra lại kế hoạch chi tiêu hoặc tích lũy.",
+    "tinhCam": "Tình cảm thuận lợi hơn khi bạn thể hiện sự quan tâm bằng thời gian và hành động cụ thể thay vì im lặng quá lâu.",
+    "sucKhoe": "Nên chú ý cường độ làm việc và dành thời gian thư giãn để tránh cơ thể bị căng liên tục."
+  },
+  "lucky": {
+    "mauSac": "Xám đá",
+    "conSo": "10",
+    "gioTot": "06:00 - 08:00",
+    "quyNhan": "Kim Ngưu"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Ma Kết: Xem nội dung tham khảo trong ngày",
+    "description": "Xem tử vi hôm nay của cung Ma Kết với phần đọc nhanh về công việc, tiền bạc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Ma Kết",
+      "cung Ma Kết hôm nay",
+      "xem tử vi Ma Kết"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/ma-ket",
+    "noindex": false
+  }
+}

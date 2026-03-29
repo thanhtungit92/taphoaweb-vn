@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-nhan-ma",
+  "slug": "nhan-ma",
+  "name": "Nhân Mã",
+  "publishDate": "2026-03-29",
+  "summary": "Nhân Mã hôm nay có xu hướng muốn trải nghiệm và mở rộng hơn thường lệ. Giữ được mục tiêu rõ ràng sẽ giúp bạn không bị tản năng lượng.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Nhân Mã. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc phù hợp với hướng chủ động, sáng tạo và có thêm góc nhìn mới, nhưng vẫn cần điểm chốt thực tế.",
+    "taiLoc": "Tài lộc có thể đến từ ý tưởng hoặc cơ hội mới, song nên đánh giá kỹ mức độ khả thi trước khi hành động.",
+    "tinhCam": "Tình cảm dễ thoải mái hơn khi bạn giao tiếp tự nhiên, chân thành và bớt né tránh những câu hỏi cần trả lời.",
+    "sucKhoe": "Nên chú ý nhịp vận động và nghỉ ngơi cân bằng để không bị tụt năng lượng quá nhanh về cuối ngày."
+  },
+  "lucky": {
+    "mauSac": "Tím than",
+    "conSo": "3",
+    "gioTot": "12:00 - 14:00",
+    "quyNhan": "Bạch Dương"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Nhân Mã: Xem nhanh vận trình trong ngày",
+    "description": "Tử vi hôm nay của cung Nhân Mã với nội dung ngắn gọn, rõ ràng và dễ tra cứu trong ngày.",
+    "keywords": [
+      "tử vi hôm nay Nhân Mã",
+      "cung Nhân Mã hôm nay",
+      "xem tử vi Nhân Mã"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/nhan-ma",
+    "noindex": false
+  }
+}

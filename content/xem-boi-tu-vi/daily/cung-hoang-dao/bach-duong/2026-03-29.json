@@ -1,0 +1,32 @@
+{
+  "id": "tv-cung-hoang-dao-bach-duong",
+  "slug": "bach-duong",
+  "name": "Bạch Dương",
+  "publishDate": "2026-03-29",
+  "summary": "Bạch Dương hôm nay có xu hướng muốn tiến nhanh. Khi tập trung vào mục tiêu chính, bạn sẽ thấy ngày làm việc hiệu quả hơn rõ rệt.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho cung Bạch Dương. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc tiến triển tốt khi bạn hành động dứt khoát nhưng vẫn chừa khoảng để rà soát lại các chi tiết quan trọng.",
+    "taiLoc": "Tài lộc có cơ hội mở ra từ các đầu việc đang theo đuổi, nhưng nên tránh quyết định quá nhanh chỉ vì cảm giác hứng khởi.",
+    "tinhCam": "Tình cảm thuận hơn nếu bạn bớt nóng và dành thời gian nghe người kia nói hết ý.",
+    "sucKhoe": "Nên phân bổ lại năng lượng trong ngày, tránh dồn hết sức vào nửa đầu rồi mệt kéo dài về sau."
+  },
+  "lucky": {
+    "mauSac": "Đỏ san hô",
+    "conSo": "9",
+    "gioTot": "08:00 - 10:00",
+    "quyNhan": "Sư Tử"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay cung Bạch Dương: Xem nhanh vận trình trong ngày",
+    "description": "Xem tử vi hôm nay của cung Bạch Dương với nội dung ngắn gọn về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay Bạch Dương",
+      "cung Bạch Dương hôm nay",
+      "xem tử vi Bạch Dương"
+    ],
+    "ogImage": "/og/item-tu-vi-cung-hoang-dao.svg",
+    "canonicalUrl": "/tu-vi-cung-hoang-dao/bach-duong",
+    "noindex": false
+  }
+}

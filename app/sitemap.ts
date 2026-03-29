@@ -73,13 +73,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7
     },
     ...animalEntries.map((entry) => ({
-      url: `${siteUrl}/tu-vi-12-con-giap/${entry.slug}`,
+      url: `${siteUrl}/tu-vi-12-con-giap/${entry.slug}/${entry.publishDate}`,
       lastModified,
       changeFrequency: "daily" as const,
       priority: 0.7
     })),
     ...zodiacEntries.map((entry) => ({
-      url: `${siteUrl}/tu-vi-cung-hoang-dao/${entry.slug}`,
+      url: `${siteUrl}/tu-vi-cung-hoang-dao/${entry.slug}/${entry.publishDate}`,
       lastModified,
       changeFrequency: "daily" as const,
       priority: 0.7

@@ -1,0 +1,32 @@
+{
+  "id": "tv-12-con-giap-suu",
+  "slug": "suu",
+  "name": "Tuổi Sửu",
+  "publishDate": "2026-03-29",
+  "summary": "Tuổi Sửu có xu hướng đi chậm mà chắc trong hôm nay. Những việc cần sự bền bỉ và kỹ tính sẽ mang lại kết quả tốt hơn mong đợi.",
+  "intro": "Đây là nội dung tử vi hôm nay dành cho Tuổi Sửu. Nội dung được trình bày theo hướng ngắn gọn, dễ đọc và phù hợp để tham khảo nhanh trong ngày.",
+  "sections": {
+    "congViec": "Công việc phù hợp với hướng xử lý có quy trình rõ ràng. Càng giữ được sự đều tay, bạn càng hạn chế sai sót.",
+    "taiLoc": "Tài lộc thiên về tích lũy và tối ưu chi phí hơn là mở rộng quá nhanh. Nên kiểm tra kỹ các khoản cần thanh toán.",
+    "tinhCam": "Tình cảm cần sự chủ động chia sẻ nhiều hơn. Một cuộc trò chuyện bình tĩnh sẽ giúp tháo gỡ hiểu lầm nhỏ.",
+    "sucKhoe": "Nên chú ý thời gian nghỉ giữa giờ và vận động nhẹ để giảm cảm giác nặng nề, trì trệ."
+  },
+  "lucky": {
+    "mauSac": "Nâu đất",
+    "conSo": "28",
+    "gioTot": "13:00 - 15:00",
+    "quyNhan": "Tuổi Tỵ"
+  },
+  "seo": {
+    "title": "Tử vi hôm nay tuổi Sửu: Công việc, tiền bạc và sức khỏe",
+    "description": "Xem tử vi hôm nay của tuổi Sửu với phần đọc nhanh về công việc, tài lộc, tình cảm và sức khỏe.",
+    "keywords": [
+      "tử vi hôm nay tuổi Sửu",
+      "tuổi Sửu hôm nay",
+      "xem tử vi tuổi Sửu"
+    ],
+    "ogImage": "/og/item-tu-vi-12-con-giap.svg",
+    "canonicalUrl": "/tu-vi-12-con-giap/suu",
+    "noindex": false
+  }
+}
