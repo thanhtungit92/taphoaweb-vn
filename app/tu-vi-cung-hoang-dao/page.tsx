@@ -7,7 +7,8 @@ import { ContentSidebar } from "@/components/ui/ContentSidebar";
 import { getDailyHoroscopeEntries, getItemBySlug, getSidebarTopics } from "@/lib/content";
 import { getSiteUrl } from "@/lib/seo";
 
-export const revalidate = 86400;
+// Horoscope pages need to roll over right after midnight Vietnam time without waiting for ISR expiry.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
   const item = await getItemBySlug("tu-vi-cung-hoang-dao");

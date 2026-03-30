@@ -4,7 +4,8 @@ import { notFound, redirect } from "next/navigation";
 import { getDailyHoroscopeBySlug, getDailyHoroscopeEntries } from "@/lib/content";
 import { getSiteUrl } from "@/lib/seo";
 
-export const revalidate = 86400;
+// The redirect target depends on the latest available date, so avoid caching it across day boundaries.
+export const dynamic = "force-dynamic";
 
 type PageProps = {
   params: Promise<{ slug: string }>;

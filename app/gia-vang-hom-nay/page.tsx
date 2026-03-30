@@ -6,7 +6,8 @@ import { ContentSidebar } from "@/components/ui/ContentSidebar";
 import { getGoldPriceDailyContent, getItemBySlug, getSidebarTopics } from "@/lib/content";
 import { getSiteUrl } from "@/lib/seo";
 
-export const revalidate = 86400;
+// Gold content changes on a business-hour boundary, so always resolve the latest file at request time.
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
   const [item, content] = await Promise.all([getItemBySlug("gia-vang-hom-nay"), getGoldPriceDailyContent()]);
